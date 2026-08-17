@@ -1,0 +1,9 @@
+study_label,network_id,topology,variant,selected_route_id,prediction,interval_half_width,upper_bound,deadline_minutes,deadline_margin,risk_score,changed_from_expected_time
+real road topology with controlled simulated traffic,real_mixed_planned_radial_00,mixed_planned_radial,A,x_1,5.995964153543669,0.4983712850883828,6.494335438632052,6.965038976113812,0.47070353748175986,5.995964153543669,False
+real road topology with controlled simulated traffic,real_mixed_planned_radial_00,mixed_planned_radial,D,x_1,5.995964153543669,0.4983712850883828,6.494335438632052,6.965038976113812,0.47070353748175986,6.494335438632052,False
+real road topology with controlled simulated traffic,real_organic_irregular_00,organic_irregular,A,x_2,3.9140275191058587,0.5947363726376824,4.508763891743541,4.7297556304112645,0.22099173866772315,3.9140275191058587,False
+real road topology with controlled simulated traffic,real_organic_irregular_00,organic_irregular,D,x_2,3.9140275191058587,0.5947363726376824,4.508763891743541,4.7297556304112645,0.22099173866772315,4.508763891743541,False
+real road topology with controlled simulated traffic,real_orthogonal_grid_00,orthogonal_grid,A,x_1,2.4799056726646853,0.49837128508838235,2.9782769577530677,4.627334895582781,1.649057937829713,2.4799056726646853,False
+real road topology with controlled simulated traffic,real_orthogonal_grid_00,orthogonal_grid,D,x_1,2.4799056726646853,0.49837128508838235,2.9782769577530677,4.627334895582781,1.649057937829713,2.9782769577530677,False
+real road topology with controlled simulated traffic,real_radial_hub_00,radial_hub,A,x_0,4.089186236753126,0.4983712850883826,4.587557521841509,5.064531638040882,0.476974116199373,4.089186236753126,False
+real road topology with controlled simulated traffic,real_radial_hub_00,radial_hub,D,x_0,4.089186236753126,0.4983712850883826,4.587557521841509,5.064531638040882,0.476974116199373,4.587557521841509,False

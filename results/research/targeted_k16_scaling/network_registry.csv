@@ -1,0 +1,10 @@
+network_id,topology,topology_index,matched_seed_id,graph_seed,generator_parameters_json,origin,destination,node_count,directed_edge_count,K16_complete
+grid_s00,grid,0,0,920000,"{""columns"": 5, ""rows"": 5, ""spacing_km"": 0.5}",g_0_0,g_4_4,25,80,True
+grid_s01,grid,0,1,920001,"{""columns"": 5, ""rows"": 5, ""spacing_km"": 0.5}",g_0_0,g_4_4,25,80,True
+grid_s02,grid,0,2,920002,"{""columns"": 5, ""rows"": 5, ""spacing_km"": 0.5}",g_0_0,g_4_4,25,80,True
+irregular_geometric_s00,irregular_geometric,2,0,920200,"{""height_km"": 4.6, ""local_neighbors"": 4, ""node_count"": 24, ""width_km"": 5.2}",n_011,n_016,24,118,True
+irregular_geometric_s01,irregular_geometric,2,1,920201,"{""height_km"": 4.6, ""local_neighbors"": 4, ""node_count"": 24, ""width_km"": 5.2}",n_011,n_021,24,120,True
+irregular_geometric_s02,irregular_geometric,2,2,920202,"{""height_km"": 4.6, ""local_neighbors"": 4, ""node_count"": 24, ""width_km"": 5.2}",n_013,n_019,24,122,True
+sparse_mixed_s00,sparse_mixed,3,0,920300,"{""height_km"": 5.0, ""local_neighbors"": 3, ""node_count"": 24, ""width_km"": 5.2}",n_005,n_018,24,84,True
+sparse_mixed_s01,sparse_mixed,3,1,920301,"{""height_km"": 5.0, ""local_neighbors"": 3, ""node_count"": 24, ""width_km"": 5.2}",n_000,n_023,24,82,True
+sparse_mixed_s02,sparse_mixed,3,2,920302,"{""height_km"": 5.0, ""local_neighbors"": 3, ""node_count"": 24, ""width_km"": 5.2}",n_005,n_018,24,84,True

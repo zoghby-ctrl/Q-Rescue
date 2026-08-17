@@ -1,0 +1,71 @@
+# Python environments, bytecode, and test/tool caches
+.venv*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+credentials*.json
+
+# Editors and operating-system metadata
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Logs, temporary files, and local packaging output
+*.log
+*.tmp
+*.temp
+build/
+dist/
+*.egg-info/
+
+# Browser automation scratch data. Keep only the approved final QA captures.
+/output/playwright/*
+!/output/playwright/final-polish-desktop.png
+!/output/playwright/final-polish-result.png
+!/output/playwright/final-polish-narrow.png
+
+# Submission-sensitive paper material stays private until TA/supervisor approval.
+/paper/*
+!/paper/CLAIMS.md
+!/paper/LIMITATIONS.md
+!/paper/REPRODUCIBILITY.md
+
+# Immutable originals that contain machine-specific absolute/Codex paths.
+# Keep them in the private science-freeze archive; do not edit them to sanitize.
+/SCIENCE_FREEZE_MANIFEST.json
+/data/real_networks/cache_manifest.json
+/results/research/**/manifest.json
+/results/research/**/failures/
+
+# Large/redundant evidence belongs in the research release archive, not ordinary Git.
+/results/research/**/checkpoints/
+/results/research/step9_1_leave_one_network_out/fold_models.joblib
+/results/research/step9_1_leave_one_network_out/heldout_conformal_intervals.csv
+/results/research/step9_cross_network/conformal_intervals.csv
+/results/research/step9_7_adaptive_conformal/coverage_intervals.csv
+/results/research/step5_conformal/intervals.csv
+/results/research/**/qaoa_training_history.csv
+/results/research/*SUPERSEDED*/
+/data/real_networks/*.overpass.json

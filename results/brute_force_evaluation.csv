@@ -1,0 +1,17 @@
+bitstring,x_0,x_1,x_2,x_3,selected_count,valid,risk_term,penalty_term,qubo_cost,selected_routes
+0000,0,0,0,0,0,False,0.0,50.0,50.0,None
+0001,0,0,0,1,1,True,27.0,0.0,27.0,Route D
+0010,0,0,1,0,1,True,27.0,0.0,27.0,Route C
+0011,0,0,1,1,2,False,54.0,50.0,104.0,"Route C, Route D"
+0100,0,1,0,0,1,True,23.0,0.0,23.0,Route B
+0101,0,1,0,1,2,False,50.0,50.0,100.0,"Route B, Route D"
+0110,0,1,1,0,2,False,50.0,50.0,100.0,"Route B, Route C"
+0111,0,1,1,1,3,False,77.0,200.0,277.0,"Route B, Route C, Route D"
+1000,1,0,0,0,1,True,28.0,0.0,28.0,Route A
+1001,1,0,0,1,2,False,55.0,50.0,105.0,"Route A, Route D"
+1010,1,0,1,0,2,False,55.0,50.0,105.0,"Route A, Route C"
+1011,1,0,1,1,3,False,82.0,200.0,282.0,"Route A, Route C, Route D"
+1100,1,1,0,0,2,False,51.0,50.0,101.0,"Route A, Route B"
+1101,1,1,0,1,3,False,78.0,200.0,278.0,"Route A, Route B, Route D"
+1110,1,1,1,0,3,False,78.0,200.0,278.0,"Route A, Route B, Route C"
+1111,1,1,1,1,4,False,105.0,450.0,555.0,"Route A, Route B, Route C, Route D"

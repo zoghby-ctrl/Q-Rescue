@@ -1,0 +1,47 @@
+{
+  "experiment_name": "step9_6_matched_statistical_rigor",
+  "design_version": "1.0-prespecified-before-primary-completion",
+  "confidence": 0.95,
+  "bootstrap_resamples": 20000,
+  "sign_flip_permutations": 100000,
+  "bootstrap_seed": 960100,
+  "permutation_seed": 960200,
+  "independent_cluster": "network_id",
+  "topology_specific_cluster_count": 10,
+  "overall_cluster_count": 50,
+  "multiple_comparison_method": "Holm family-wise correction",
+  "primary_mixer_effect_metrics": [
+    "feasibility_probability",
+    "optimal_state_probability",
+    "optimal_probability_given_feasible",
+    "normalized_feasible_entropy",
+    "energy_regret",
+    "risk_regret",
+    "selected_realized_deadline_violation",
+    "selected_realized_regret_vs_actual_fastest_minutes"
+  ],
+  "prespecified_factor_contrasts": {
+    "mixer": ["standard_x", "feasible_xy"],
+    "depth": [1, 5],
+    "K": [4, 8],
+    "uncertainty": ["low", "high"]
+  },
+  "entropy_association_outcomes": [
+    "optimal_state_probability",
+    "risk_regret",
+    "selected_realized_deadline_violation",
+    "selected_realized_regret_vs_actual_fastest_minutes"
+  ],
+  "source_directories": {
+    "step9_2": "results/research/step9_2_topology_uncertainty_qaoa",
+    "dynamic": "results/research/step8_dynamic_rerouting"
+  },
+  "analysis_policy": {
+    "bounded_probabilities": "matched cluster bootstrap and paired randomization; no naive Gaussian ANOVA",
+    "rates": "cluster bootstrap for inference plus Wilson intervals as descriptive binomial intervals",
+    "factorial_model": "prespecified within-network marginal contrasts; no saturated five-way model with only 50 clusters",
+    "p_values": "secondary to effect sizes and confidence intervals",
+    "dynamic_scope": "five-network inherited controlled simulation; exploratory small-sample inference",
+    "causality": "associations are not interpreted causally"
+  }
+}

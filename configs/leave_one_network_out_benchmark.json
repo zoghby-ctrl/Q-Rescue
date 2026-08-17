@@ -1,0 +1,28 @@
+{
+  "experiment_name": "step9_1_leave_one_network_out",
+  "corpus_config_path": "configs/cross_network_benchmark.json",
+  "historical_scenarios": [
+    "normal",
+    "rush",
+    "rain",
+    "congestion",
+    "accident",
+    "prediction_noise"
+  ],
+  "observations_per_network_per_scenario": 36,
+  "traffic_seed_base": 919100,
+  "split_rotation_offset": 1,
+  "model_seed_base": 919200,
+  "random_forest_trees": 80,
+  "residual_scale_seed_base": 919300,
+  "residual_scale_trees": 80,
+  "residual_scale_minimum_minutes": 0.25,
+  "relative_minimum_scale_minutes": 1.0,
+  "conformal_alpha": 0.10,
+  "normalization": {
+    "fit_role": "train",
+    "raw_column": "route_distance_km",
+    "method": "divide_by_training_maximum",
+    "clip": false
+  }
+}

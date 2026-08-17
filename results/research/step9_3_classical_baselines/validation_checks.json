@@ -1,0 +1,19 @@
+{
+  "aggregate_reconciliation_passed": true,
+  "all_numeric_finite_passed": true,
+  "candidate_sizes_passed": true,
+  "decision_set_count": 15,
+  "exact_ground_truth_passed": true,
+  "expected_runtime_row_count": 4500,
+  "maximum_exact_risk_regret": 0.0,
+  "minimum_comparable_regret": 0.0,
+  "nonnegative_regret_passed": true,
+  "runtime_count_passed": true,
+  "runtime_row_count": 4500,
+  "selection_count_passed": true,
+  "simple_graph_projection_policy_passed": true,
+  "source_identity_unique_passed": true,
+  "source_route_row_count": 90,
+  "stable_ties_passed": true,
+  "topology_count": 5
+}

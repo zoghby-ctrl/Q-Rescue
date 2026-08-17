@@ -1,0 +1,76 @@
+{
+  "experiment_name": "step8_5_real_topology_controlled_traffic",
+  "study_label": "real road topology with controlled simulated traffic",
+  "candidate_k": 4,
+  "cache_directory": "data/real_networks",
+  "cache_manifest": "data/real_networks/cache_manifest.json",
+  "overpass_endpoint": "https://overpass-api.de/api/interpreter",
+  "overpass_endpoints": [
+    "https://overpass-api.de/api/interpreter",
+    "https://overpass.kumi.systems/api/interpreter",
+    "https://overpass.private.coffee/api/interpreter"
+  ],
+  "highway_classes": [
+    "primary",
+    "secondary",
+    "tertiary",
+    "unclassified",
+    "residential",
+    "living_street"
+  ],
+  "frozen_step4_model": "results/research/step4_traffic_ai/best_model.joblib",
+  "frozen_step4_train": "results/research/step4_traffic_ai/train.csv",
+  "frozen_step5_scale_model": "results/research/step5_conformal/residual_scale_model.joblib",
+  "frozen_step5_quantiles": "results/research/step5_conformal/calibration_quantiles.csv",
+  "conformal_method": "local_scaled",
+  "conformal_alpha": 0.10,
+  "traffic_scenarios": ["normal", "rush", "rain", "prediction_noise"],
+  "observations_per_network_per_scenario": 24,
+  "traffic_seed": 850100,
+  "risk_state_seed": 850200,
+  "deadline_upper_bound_quantile": 0.40,
+  "risk_variants": ["A", "D"],
+  "risk_weights": {
+    "lambda_uncertainty": 1.0,
+    "lambda_deadline": 2.0,
+    "lambda_reroute": 0.0
+  },
+  "qaoa": {
+    "enabled": true,
+    "methods": ["standard_x", "feasible_xy"],
+    "depth": 1,
+    "iterations": 12,
+    "step_size": 0.05,
+    "optimization_seed": 850300
+  },
+  "regions": [
+    {
+      "network_id": "real_orthogonal_grid_00",
+      "topology_class": "orthogonal_grid",
+      "region_label": "Midtown Manhattan, New York, USA",
+      "selection_rationale": "compact orthogonal street grid with frequent four-way intersections",
+      "bounding_box": {"south": 40.7500, "west": -73.9950, "north": 40.7560, "east": -73.9850}
+    },
+    {
+      "network_id": "real_radial_hub_00",
+      "topology_class": "radial_hub",
+      "region_label": "Place Charles de Gaulle vicinity, Paris, France",
+      "selection_rationale": "compact hub-and-spoke road pattern centered on a major roundabout",
+      "bounding_box": {"south": 48.8700, "west": 2.2880, "north": 48.8770, "east": 2.3000}
+    },
+    {
+      "network_id": "real_organic_irregular_00",
+      "topology_class": "organic_irregular",
+      "region_label": "Trastevere vicinity, Rome, Italy",
+      "selection_rationale": "historic irregular street fabric with non-orthogonal connectivity",
+      "bounding_box": {"south": 41.8845, "west": 12.4660, "north": 41.8930, "east": 12.4780}
+    },
+    {
+      "network_id": "real_mixed_planned_radial_00",
+      "topology_class": "mixed_planned_radial",
+      "region_label": "Dupont Circle vicinity, Washington, DC, USA",
+      "selection_rationale": "planned grid intersected by diagonal avenues and a radial circle",
+      "bounding_box": {"south": 38.9030, "west": -77.0520, "north": 38.9130, "east": -77.0360}
+    }
+  ]
+}

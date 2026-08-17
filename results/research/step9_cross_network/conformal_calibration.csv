@@ -1,0 +1,10 @@
+method,alpha,nominal_coverage,calibration_partition,n_calibration,finite_sample_quantile_level,calibration_quantile,quantile_units
+absolute,0.05,0.95,calibration,1344,0.9508928571428571,5.785912263695039,minutes
+relative,0.05,0.95,calibration,1344,0.9508928571428571,0.359387621561538,absolute_residual_over_prediction_scale
+local,0.05,0.95,calibration,1344,0.9508928571428571,3.030921303177504,absolute_residual_over_fitted_local_scale
+absolute,0.1,0.9,calibration,1344,0.9010416666666666,3.099035000271339,minutes
+relative,0.1,0.9,calibration,1344,0.9010416666666666,0.26763544856283933,absolute_residual_over_prediction_scale
+local,0.1,0.9,calibration,1344,0.9010416666666666,2.4480572801436304,absolute_residual_over_fitted_local_scale
+absolute,0.2,0.8,calibration,1344,0.8005952380952381,1.7711185716733908,minutes
+relative,0.2,0.8,calibration,1344,0.8005952380952381,0.17515514467254234,absolute_residual_over_prediction_scale
+local,0.2,0.8,calibration,1344,0.8005952380952381,1.7612946088627521,absolute_residual_over_fitted_local_scale

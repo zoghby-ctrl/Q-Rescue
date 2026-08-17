@@ -1,0 +1,9 @@
+{
+  "alpha": 0.1,
+  "calibration_quantile": 2.192296892213123,
+  "finite_sample_quantile_level": 0.9030303030303031,
+  "method": "locally_scaled_split_conformal",
+  "n_calibration": 330,
+  "nominal_coverage": 0.9,
+  "quantile_units": "normalized_residual_ratio"
+}

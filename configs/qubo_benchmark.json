@@ -1,0 +1,9 @@
+{
+  "experiment_name": "step7_generalized_risk_qubo",
+  "routing_risk_artifacts": "results/research/steps6_6_5_routing_risk",
+  "variants": ["D", "E"],
+  "candidate_counts": [4, 6, 8],
+  "penalty_margin": 1.0,
+  "maximum_bruteforce_variables": 12
+}
+

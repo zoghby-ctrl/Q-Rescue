@@ -1,0 +1,17 @@
+bitstring,p=1 count,p=2 count,valid,decoded_valid_route
+0000,778,6,False,Invalid
+0001,656,952,True,Route D
+0010,634,1018,True,Route C
+0011,86,0,False,Invalid
+0100,668,1036,True,Route B
+0101,101,6,False,Invalid
+0110,100,5,False,Invalid
+0111,25,0,False,Invalid
+1000,587,956,True,Route A
+1001,95,1,False,Invalid
+1010,101,0,False,Invalid
+1011,21,0,False,Invalid
+1100,82,2,False,Invalid
+1101,23,2,False,Invalid
+1110,23,2,False,Invalid
+1111,20,14,False,Invalid

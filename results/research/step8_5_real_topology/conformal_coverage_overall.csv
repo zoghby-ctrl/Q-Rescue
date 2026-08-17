@@ -1,0 +1,2 @@
+study_label,n_samples,alpha,nominal_coverage,empirical_coverage,mean_interval_width,median_interval_width
+real road topology with controlled simulated traffic,384,0.1,0.9,0.5442708333333334,2.6197250351327206,3.0382089303780537

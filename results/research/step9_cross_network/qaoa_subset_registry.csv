@@ -1,0 +1,11 @@
+event_id,evaluation_group,network_id,topology,scenario
+route_event_0049,OOD-combined,irregular_geometric_ood_0,irregular_geometric,shift
+route_event_0017,OOD-topology,irregular_geometric_ood_0,irregular_geometric,normal
+route_event_0033,OOD-traffic,dense_mixed_test_id,dense_mixed,shift
+route_event_0037,OOD-traffic,grid_test_id,grid,shift
+route_event_0041,OOD-traffic,radial_test_id,radial,shift
+route_event_0045,OOD-traffic,sparse_mixed_test_id,sparse_mixed,shift
+route_event_0001,TEST-ID,dense_mixed_test_id,dense_mixed,normal
+route_event_0005,TEST-ID,grid_test_id,grid,normal
+route_event_0009,TEST-ID,radial_test_id,radial,normal
+route_event_0013,TEST-ID,sparse_mixed_test_id,sparse_mixed,normal

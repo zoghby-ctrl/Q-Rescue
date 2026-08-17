@@ -1,0 +1,12 @@
+{
+  "K": 16,
+  "complex_statevector_mib": 1.0,
+  "default_workers": 3,
+  "estimated_parallel_hours_at_default_workers": 0.5920631760414532,
+  "estimated_parallel_seconds_at_default_workers": 2131.4274337492316,
+  "estimated_sequential_seconds_with_margin": 6394.282301247695,
+  "estimation_method": "linear fit to 1- and 3-iteration real K16 cells plus 25% margin",
+  "logical_qubo_nonidentity_terms": 136,
+  "probability_vector_mib": 0.5,
+  "trial_count": 72
+}

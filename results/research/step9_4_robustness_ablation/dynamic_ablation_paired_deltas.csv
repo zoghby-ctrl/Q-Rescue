@@ -1,0 +1,5 @@
+condition,reference_condition,paired_case_count,initial_selection_change_count,realized_deadline_outcome_change_count,realized_deadline_improvement_count,realized_deadline_worsening_count,mean_arrival_time_delta_minutes_condition_minus_full_both_arrived,mean_reroute_delta_condition_minus_full,outcome_type
+without_conformal_calibration,full,35,5,0,0,0,0.0192993844229042,-0.02857142857142857,paired_realized_controlled_simulation
+without_deadline_penalty,full,35,0,0,0,0,-0.06047265344939231,-0.08571428571428572,paired_realized_controlled_simulation
+without_reroute_penalty,full,35,0,0,0,0,-0.15493984239437575,0.4,paired_realized_controlled_simulation
+without_uncertainty,full,35,2,0,0,0,-0.000514230737070674,-0.05714285714285714,paired_realized_controlled_simulation

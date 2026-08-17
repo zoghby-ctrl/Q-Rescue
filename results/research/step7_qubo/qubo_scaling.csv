@@ -1,0 +1,4 @@
+K,number_of_qubits,search_space_size,qubo_linear_terms,qubo_quadratic_terms,qubo_total_terms,hamiltonian_z_terms,hamiltonian_zz_terms,hamiltonian_nonidentity_terms
+4,4,16,4,6,11,4,6,10
+6,6,64,6,15,22,6,15,21
+8,8,256,8,28,37,8,28,36

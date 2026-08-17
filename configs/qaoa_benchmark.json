@@ -1,0 +1,18 @@
+{
+  "experiment_name": "step7_5_qaoa_methods",
+  "routing_risk_artifacts": "results/research/steps6_6_5_routing_risk",
+  "risk_variant": "D",
+  "methods": ["standard_x", "feasible_xy"],
+  "primary_candidate_count": 4,
+  "primary_depths": [1, 2, 3],
+  "primary_seeds": [7101, 7102, 7103],
+  "scaling_network_id": "synthetic_grid_00",
+  "scaling_candidate_counts": [6, 8],
+  "scaling_depths": [1, 2],
+  "scaling_seeds": [7101, 7102],
+  "iterations": 35,
+  "step_size": 0.05,
+  "shots": 2000,
+  "sampling_seed_offset": 900000
+}
+

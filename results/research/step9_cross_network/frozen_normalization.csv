@@ -1,0 +1,2 @@
+normalization_feature,fit_partition,raw_training_route_distance_maximum_km,formula,clipping_applied,ood_values_above_one_allowed
+normalized_distance,train,6.918166845342025,route_distance_km / raw_training_route_distance_maximum_km,False,True

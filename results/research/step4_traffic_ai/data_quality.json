@@ -1,0 +1,60 @@
+{
+  "all_model_values_finite": true,
+  "column_count": 27,
+  "duplicate_observation_ids": 0,
+  "feature_columns": [
+    "normalized_distance",
+    "base_travel_time_min",
+    "hour_sin",
+    "hour_cos",
+    "day_sin",
+    "day_cos",
+    "congestion",
+    "average_speed_kph",
+    "rain_indicator",
+    "incident_indicator",
+    "road_class_code",
+    "intersection_count",
+    "historical_delay_minutes"
+  ],
+  "feature_contract_matches_model": true,
+  "grain": "one simulated complete origin-destination trip",
+  "identity_columns_excluded_from_features": [
+    "network_id",
+    "observation_id",
+    "scenario",
+    "topology"
+  ],
+  "maximum_travel_time_minutes": 64.48089069155085,
+  "minimum_travel_time_minutes": 0.7678893890969846,
+  "multi_edge_trip_share": 0.9864583333333333,
+  "network_count": 5,
+  "networks_per_split": {
+    "calibration": 5,
+    "test": 5,
+    "train": 5,
+    "validation": 5
+  },
+  "route_edge_count_max": 13,
+  "route_edge_count_min": 1,
+  "row_count": 4800,
+  "scenario_count": 6,
+  "split_ids_cover_source": true,
+  "split_overlap_counts": {
+    "calibration__test": 0,
+    "calibration__validation": 0,
+    "train__calibration": 0,
+    "train__test": 0,
+    "train__validation": 0,
+    "validation__test": 0
+  },
+  "split_row_counts": {
+    "calibration": 960,
+    "test": 720,
+    "train": 2400,
+    "validation": 720
+  },
+  "topology_count": 5,
+  "total_missing_values": 0,
+  "unique_observation_ids": 4800
+}

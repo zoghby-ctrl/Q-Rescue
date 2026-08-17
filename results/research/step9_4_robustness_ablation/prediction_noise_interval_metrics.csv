@@ -1,0 +1,5 @@
+source_scope,method,alpha,nominal_coverage,scenario,is_prediction_noise_scenario,n_samples,empirical_coverage,wilson_95_lower,wilson_95_upper,observed_undercoverage_beyond_wilson_95,mean_interval_width_minutes,median_interval_width_minutes
+step8_25_repeated_synthetic_held_out_test_rows,local_scaled,0.1,0.9,normal,False,68,1.0,0.9465268034119508,1.0,False,3.4463379562747924,3.032543037281075
+step8_25_repeated_synthetic_held_out_test_rows,local_scaled,0.1,0.9,prediction_noise,True,53,0.7924528301886793,0.6654199754433079,0.8799552427067794,True,3.551669391096317,3.213238852434463
+step8_25_repeated_synthetic_held_out_test_rows,local_scaled,0.1,0.9,rain,False,64,0.9375,0.8500230335750312,0.9754291963252071,False,3.135899212433882,2.5623867736380124
+step8_25_repeated_synthetic_held_out_test_rows,local_scaled,0.1,0.9,rush,False,70,0.9428571428571428,0.8620785266792448,0.9775565841525897,False,2.7353309332339997,2.174233618319378

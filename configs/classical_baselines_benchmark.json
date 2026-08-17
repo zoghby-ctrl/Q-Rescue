@@ -1,0 +1,16 @@
+{
+  "experiment_name": "step9_3_classical_baselines",
+  "source_artifacts": "results/research/steps6_6_5_routing_risk",
+  "source_scores_file": "route_risk_scores.csv",
+  "source_variant": "E",
+  "network_config": "configs/traffic_ai_benchmark.json",
+  "candidate_counts": [4, 6, 8],
+  "expected_candidate_column": "prediction",
+  "dijkstra_weight": "base_travel_time_min",
+  "dijkstra_distance_weight": "distance_km",
+  "dijkstra_distance_travel_time_weight": "base_travel_time_min",
+  "allow_parallel_edge_projection": false,
+  "runtime_repetitions": 50,
+  "tie_absolute_tolerance": 1e-12,
+  "path_delimiter": " -> "
+}

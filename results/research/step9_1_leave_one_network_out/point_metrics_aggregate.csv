@@ -1,0 +1,2 @@
+fold_count,heldout_network_count,n_pooled_samples,pooled_mae,pooled_rmse,pooled_r2,macro_fold_mean_mae,macro_fold_std_mae,macro_fold_mean_rmse,macro_fold_std_rmse,macro_fold_mean_r2,macro_fold_std_r2
+20,20,4320,0.8929630460526587,1.637487552298581,0.9420974862095545,0.8929630460526587,0.4407495231955082,1.4525673751187234,0.7755565096473086,0.893007198230538,0.03067822385471045

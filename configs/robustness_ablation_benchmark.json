@@ -1,0 +1,69 @@
+{
+  "experiment_name": "step9_4_robustness_ablation",
+  "output_directory": "results/research/step9_4_robustness_ablation",
+  "source_artifacts": {
+    "traffic_model": "results/research/step4_traffic_ai",
+    "conformal": "results/research/step5_conformal",
+    "routing_risk": "results/research/steps6_6_5_routing_risk",
+    "qubo": "results/research/step7_qubo",
+    "qaoa": "results/research/step7_5_qaoa",
+    "dynamic": "results/research/step8_dynamic_rerouting",
+    "repeated_topology": "results/research/steps8_25_8_75_topology_benchmark",
+    "real_topology": "results/research/step8_5_real_topology",
+    "classical_baselines": "results/research/step9_3_classical_baselines"
+  },
+  "network_config": "configs/traffic_ai_benchmark.json",
+  "static_risk": {
+    "source_variant": "E",
+    "baseline_alpha": 0.10,
+    "alphas": [0.05, 0.10, 0.20],
+    "baseline_weights": {
+      "lambda_uncertainty": 1.0,
+      "lambda_deadline": 2.0,
+      "lambda_reroute": 1.0
+    },
+    "ablation_conditions": [
+      "full",
+      "without_uncertainty",
+      "without_deadline_penalty",
+      "without_conformal_calibration",
+      "without_reroute_penalty"
+    ],
+    "one_at_a_time_weight_sweep": {
+      "lambda_uncertainty": [0.0, 0.5, 1.0, 2.0, 4.0],
+      "lambda_deadline": [0.0, 0.5, 1.0, 2.0, 4.0],
+      "lambda_reroute": [0.0, 0.5, 1.0, 2.0, 4.0]
+    }
+  },
+  "qubo_penalty": {
+    "risk_variant": "D",
+    "candidate_counts": [4, 6, 8],
+    "multipliers_of_minimum_valid_cost": [0.0, 0.25, 0.5, 0.75, 0.99, 1.0, 1.01, 1.25],
+    "safe_reference_margin_over_maximum_cost": 1.0,
+    "ground_tolerance": 1e-10
+  },
+  "qaoa": {
+    "risk_variant": "D",
+    "methods": ["standard_x", "feasible_xy"],
+    "target_network_id": "synthetic_grid_00",
+    "target_candidate_counts": [6, 8],
+    "target_depths": [3],
+    "target_seeds": [7101, 7102],
+    "iterations": 35,
+    "step_size": 0.05,
+    "warm_start_implemented": false
+  },
+  "dynamic_targeted": {
+    "candidate_count": 4,
+    "deadline_multiplier_over_base_shortest_time": 1.8,
+    "reroute_penalty_minutes": 1.5,
+    "simulation_seed": 9400,
+    "conditions": [
+      "full",
+      "without_uncertainty",
+      "without_deadline_penalty",
+      "without_conformal_calibration",
+      "without_reroute_penalty"
+    ]
+  }
+}

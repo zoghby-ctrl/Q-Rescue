@@ -1,0 +1,2 @@
+n_samples,alpha,nominal_coverage,empirical_coverage,mean_interval_width,median_interval_width
+255,0.1,0.9,0.9254901960784314,3.195137935987997,2.7989103479240676

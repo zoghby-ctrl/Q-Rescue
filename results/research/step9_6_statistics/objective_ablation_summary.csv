@@ -1,0 +1,4 @@
+objective_variant,problem_count,network_count,mean_realized_time_minutes,median_realized_time_minutes,deadline_violation_rate,mean_realized_regret_vs_fastest_minutes
+A_expected_time,300,50,12.58398983108337,11.9905169533893,0.12333333333333334,1.4093605673769238
+B_expected_plus_deadline,300,50,12.58398983108337,11.9905169533893,0.12333333333333334,1.4093605673769238
+C_expected_plus_deadline_plus_uncertainty,300,50,12.673311218471198,12.199471203335154,0.13333333333333333,1.498681954764753

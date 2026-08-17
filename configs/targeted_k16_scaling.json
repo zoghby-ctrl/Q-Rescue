@@ -1,0 +1,29 @@
+{
+  "experiment_name": "targeted_k16_indicative_scaling",
+  "design_version": "1.0-frozen-before-k16-optimization",
+  "source_directory": "results/research/step9_2_topology_uncertainty_qaoa",
+  "K": 16,
+  "topologies": ["grid", "irregular_geometric", "sparse_mixed"],
+  "uncertainty_regimes": ["low", "high"],
+  "matched_seed_ids": [0, 1, 2],
+  "mixers": ["standard_x", "feasible_xy"],
+  "depths": [1, 3],
+  "iterations": 15,
+  "step_size": 0.05,
+  "optimization_seed_base": 991000,
+  "extension_outcome_seed_offset": 16000,
+  "default_workers": 3,
+  "benchmark_iterations": [1, 3],
+  "maximum_estimated_parallel_hours": 1.5,
+  "bootstrap_resamples": 20000,
+  "bootstrap_seed": 992000,
+  "design_policy": {
+    "purpose": "indicative K scaling only; K=16 remains classically trivial",
+    "matched_prefix": "the first eight routes, risk scores, actual outcomes, and deadline must reproduce the accepted K=8 problem",
+    "deadline": "reuse the accepted per-network K=8 point-prediction deadline",
+    "new_route_outcomes": "draw routes 9-16 from a separate deterministic extension stream so K=8 outcomes remain unchanged",
+    "optimizer": "same 15-step Adam budget and step size as the primary study",
+    "p8": "not run because primary p=5 concentration gains did not resolve operational utility",
+    "quantum_advantage_claimed": false
+  }
+}

@@ -1,0 +1,11 @@
+first_partition,second_partition,overlap_count,overlapping_network_ids_json,passes_zero_overlap
+train,validation,0,[],True
+train,calibration,0,[],True
+train,test_id,0,[],True
+train,ood_topology,0,[],True
+validation,calibration,0,[],True
+validation,test_id,0,[],True
+validation,ood_topology,0,[],True
+calibration,test_id,0,[],True
+calibration,ood_topology,0,[],True
+test_id,ood_topology,0,[],True

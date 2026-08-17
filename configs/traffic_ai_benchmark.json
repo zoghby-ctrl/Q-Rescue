@@ -1,0 +1,56 @@
+{
+  "experiment_name": "step4_general_traffic_ai",
+  "network_seed_base": 4100,
+  "traffic_seed": 4200,
+  "split_seed": 4300,
+  "model_seed": 4400,
+  "observations_per_network_per_scenario": 160,
+  "scenarios": [
+    "normal",
+    "rush",
+    "rain",
+    "congestion",
+    "accident",
+    "prediction_noise"
+  ],
+  "split_fractions": {
+    "train": 0.50,
+    "calibration": 0.20,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "random_forest_trees": 200,
+  "networks": [
+    {
+      "network_id": "synthetic_grid_00",
+      "topology": "grid",
+      "seed": 4101,
+      "parameters": {"rows": 5, "columns": 5, "spacing_km": 0.5}
+    },
+    {
+      "network_id": "synthetic_radial_00",
+      "topology": "radial",
+      "seed": 4102,
+      "parameters": {"spokes": 8, "rings": 3, "ring_spacing_km": 0.55}
+    },
+    {
+      "network_id": "synthetic_irregular_00",
+      "topology": "irregular_geometric",
+      "seed": 4103,
+      "parameters": {"node_count": 25, "width_km": 5.0, "height_km": 4.0, "local_neighbors": 3}
+    },
+    {
+      "network_id": "synthetic_sparse_mixed_00",
+      "topology": "sparse_mixed",
+      "seed": 4104,
+      "parameters": {"node_count": 25, "width_km": 5.0, "height_km": 5.0, "local_neighbors": 2}
+    },
+    {
+      "network_id": "synthetic_dense_mixed_00",
+      "topology": "dense_mixed",
+      "seed": 4105,
+      "parameters": {"node_count": 25, "width_km": 5.0, "height_km": 5.0, "local_neighbors": 4}
+    }
+  ]
+}
+

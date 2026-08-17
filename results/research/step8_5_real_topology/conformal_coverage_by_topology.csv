@@ -1,0 +1,5 @@
+study_label,topology,n_samples,alpha,nominal_coverage,empirical_coverage,mean_interval_width,median_interval_width
+real road topology with controlled simulated traffic,mixed_planned_radial,96,0.1,0.9,0.4791666666666667,2.2730545921279526,2.8456655935400947
+real road topology with controlled simulated traffic,organic_irregular,96,0.1,0.9,0.5625,3.3916795979392553,3.6233086977485356
+real road topology with controlled simulated traffic,orthogonal_grid,96,0.1,0.9,0.6041666666666666,2.2642703728851665,2.8657375077596337
+real road topology with controlled simulated traffic,radial_hub,96,0.1,0.9,0.53125,2.5498955775785084,3.0064366824327777

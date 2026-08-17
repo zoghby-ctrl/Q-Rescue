@@ -1,0 +1,37 @@
+{
+  "experiment_name": "step9_8_local_noise_model_simulation",
+  "design_version": "1.0-phenomenological-not-backend-calibrated",
+  "source_directory": "results/research/step9_2_topology_uncertainty_qaoa",
+  "K": 4,
+  "depths": [1, 3],
+  "methods": ["standard_x", "feasible_xy"],
+  "topologies": ["grid", "radial", "irregular_geometric", "sparse_mixed", "dense_mixed"],
+  "uncertainty": "medium",
+  "matched_seed_ids": [0, 1],
+  "shots": 4096,
+  "shot_seed_base": 980100,
+  "noise_seed_base": 980200,
+  "noise_model": {
+    "one_qubit_gate_error": 0.001,
+    "two_qubit_gate_error": 0.010,
+    "readout_bit_flip_probability": 0.020,
+    "amplitude_damping_T1_microseconds": 100.0,
+    "one_qubit_gate_duration_nanoseconds": 35.0,
+    "two_qubit_gate_duration_nanoseconds": 300.0,
+    "xy_state_preparation_depolarizing_probability": 0.010,
+    "xy_state_preparation_duration_nanoseconds": 300.0,
+    "cost_single_qubit_interactions_per_wire": 1,
+    "cost_two_qubit_interactions_per_wire": 3,
+    "standard_x_mixer_single_qubit_interactions_per_wire": 1,
+    "xy_ring_mixer_two_qubit_interactions_per_wire": 4
+  },
+  "conditions": ["ideal_analytic", "finite_shot_noiseless", "noisy_shot"],
+  "policy": {
+    "backend_calibrated": false,
+    "hardware_result": false,
+    "angles_reoptimized_under_noise": false,
+    "same_ideal_optimized_angles_across_conditions": true,
+    "scope": "small_K4_local_density_matrix_noise_model_simulation",
+    "quantum_advantage_claimed": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "experiment_name": "step5_split_conformal",
+  "base_step4_config": "configs/traffic_ai_benchmark.json",
+  "base_step4_artifacts": "results/research/step4_traffic_ai",
+  "alphas": [0.05, 0.10, 0.20],
+  "methods": ["absolute", "relative_scaled", "local_scaled"],
+  "relative_minimum_scale_minutes": 1.0,
+  "local_scale_minimum_minutes": 0.25,
+  "local_scale_random_forest_trees": 200,
+  "local_scale_seed": 5300,
+  "shift_scenarios": ["shift"],
+  "shift_observations_per_network_per_scenario": 144,
+  "shift_traffic_seed": 5200
+}

@@ -1,0 +1,8 @@
+penalty_condition,validation_problem_count,global_ground_states_all_feasible_every_problem,validation_mean_optimal_state_probability,validation_mean_feasibility_probability,median_ratio_to_exact_threshold,selected_by_frozen_validation_rule
+half_threshold,15,False,0.012342033806134583,0.10123376029740325,0.5,False
+near_above_threshold,15,True,0.008543351796002473,0.08217368635002295,1.05,False
+near_below_threshold,15,False,0.019148196658256438,0.09221658234681955,0.95,False
+threshold_tie,15,False,0.009878291680254697,0.07856567967653628,1.0,False
+twice_threshold,15,True,0.005925450275770655,0.04604137178714837,2.0,False
+validated_safe_default,15,True,0.00905071421665877,0.05639882865546449,1.8363040978282863,True
+very_large,15,True,0.00479832669974686,0.04600235732697208,10.0,False

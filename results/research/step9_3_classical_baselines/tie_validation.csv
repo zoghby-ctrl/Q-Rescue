@@ -1,0 +1,91 @@
+network_id,topology,K,method,minimum_tie_count,tie_break_applied,selected_route_id,selected_path,stable_under_reordered_input
+synthetic_dense_mixed_00,dense_mixed,4,shortest_distance_candidate,1,False,x_2,n_000 -> n_006 -> n_012 -> n_013 -> n_019 -> n_024,True
+synthetic_dense_mixed_00,dense_mixed,4,dijkstra_shortest_distance_path,1,False,x_2,n_000 -> n_006 -> n_012 -> n_013 -> n_019 -> n_024,True
+synthetic_dense_mixed_00,dense_mixed,4,shortest_expected_time_candidate,1,False,x_0,n_000 -> n_006 -> n_012 -> n_013 -> n_018 -> n_024,True
+synthetic_dense_mixed_00,dense_mixed,4,dijkstra_expected_time_path,1,False,x_0,n_000 -> n_006 -> n_012 -> n_013 -> n_018 -> n_024,True
+synthetic_dense_mixed_00,dense_mixed,4,exact_risk_argmin,1,False,x_0,n_000 -> n_006 -> n_012 -> n_013 -> n_018 -> n_024,True
+synthetic_dense_mixed_00,dense_mixed,4,minimum_upper_bound_heuristic,1,False,x_0,n_000 -> n_006 -> n_012 -> n_013 -> n_018 -> n_024,True
+synthetic_dense_mixed_00,dense_mixed,6,shortest_distance_candidate,1,False,x_2,n_000 -> n_006 -> n_012 -> n_013 -> n_019 -> n_024,True
+synthetic_dense_mixed_00,dense_mixed,6,dijkstra_shortest_distance_path,1,False,x_2,n_000 -> n_006 -> n_012 -> n_013 -> n_019 -> n_024,True
+synthetic_dense_mixed_00,dense_mixed,6,shortest_expected_time_candidate,1,False,x_0,n_000 -> n_006 -> n_012 -> n_013 -> n_018 -> n_024,True
+synthetic_dense_mixed_00,dense_mixed,6,dijkstra_expected_time_path,1,False,x_0,n_000 -> n_006 -> n_012 -> n_013 -> n_018 -> n_024,True
+synthetic_dense_mixed_00,dense_mixed,6,exact_risk_argmin,1,False,x_0,n_000 -> n_006 -> n_012 -> n_013 -> n_018 -> n_024,True
+synthetic_dense_mixed_00,dense_mixed,6,minimum_upper_bound_heuristic,1,False,x_0,n_000 -> n_006 -> n_012 -> n_013 -> n_018 -> n_024,True
+synthetic_dense_mixed_00,dense_mixed,8,shortest_distance_candidate,1,False,x_2,n_000 -> n_006 -> n_012 -> n_013 -> n_019 -> n_024,True
+synthetic_dense_mixed_00,dense_mixed,8,dijkstra_shortest_distance_path,1,False,x_2,n_000 -> n_006 -> n_012 -> n_013 -> n_019 -> n_024,True
+synthetic_dense_mixed_00,dense_mixed,8,shortest_expected_time_candidate,1,False,x_0,n_000 -> n_006 -> n_012 -> n_013 -> n_018 -> n_024,True
+synthetic_dense_mixed_00,dense_mixed,8,dijkstra_expected_time_path,1,False,x_0,n_000 -> n_006 -> n_012 -> n_013 -> n_018 -> n_024,True
+synthetic_dense_mixed_00,dense_mixed,8,exact_risk_argmin,1,False,x_0,n_000 -> n_006 -> n_012 -> n_013 -> n_018 -> n_024,True
+synthetic_dense_mixed_00,dense_mixed,8,minimum_upper_bound_heuristic,1,False,x_0,n_000 -> n_006 -> n_012 -> n_013 -> n_018 -> n_024,True
+synthetic_grid_00,grid,4,shortest_distance_candidate,4,True,x_0,g_0_0 -> g_0_1 -> g_0_2 -> g_0_3 -> g_0_4 -> g_1_4 -> g_2_4 -> g_3_4 -> g_4_4,True
+synthetic_grid_00,grid,4,dijkstra_shortest_distance_path,70,True,x_0,g_0_0 -> g_0_1 -> g_0_2 -> g_0_3 -> g_0_4 -> g_1_4 -> g_2_4 -> g_3_4 -> g_4_4,True
+synthetic_grid_00,grid,4,shortest_expected_time_candidate,1,False,x_3,g_0_0 -> g_0_1 -> g_0_2 -> g_0_3 -> g_1_3 -> g_1_4 -> g_2_4 -> g_3_4 -> g_4_4,True
+synthetic_grid_00,grid,4,dijkstra_expected_time_path,1,False,x_0,g_0_0 -> g_0_1 -> g_0_2 -> g_0_3 -> g_0_4 -> g_1_4 -> g_2_4 -> g_3_4 -> g_4_4,True
+synthetic_grid_00,grid,4,exact_risk_argmin,1,False,x_3,g_0_0 -> g_0_1 -> g_0_2 -> g_0_3 -> g_1_3 -> g_1_4 -> g_2_4 -> g_3_4 -> g_4_4,True
+synthetic_grid_00,grid,4,minimum_upper_bound_heuristic,1,False,x_3,g_0_0 -> g_0_1 -> g_0_2 -> g_0_3 -> g_1_3 -> g_1_4 -> g_2_4 -> g_3_4 -> g_4_4,True
+synthetic_grid_00,grid,6,shortest_distance_candidate,6,True,x_0,g_0_0 -> g_0_1 -> g_0_2 -> g_0_3 -> g_0_4 -> g_1_4 -> g_2_4 -> g_3_4 -> g_4_4,True
+synthetic_grid_00,grid,6,dijkstra_shortest_distance_path,70,True,x_0,g_0_0 -> g_0_1 -> g_0_2 -> g_0_3 -> g_0_4 -> g_1_4 -> g_2_4 -> g_3_4 -> g_4_4,True
+synthetic_grid_00,grid,6,shortest_expected_time_candidate,1,False,x_3,g_0_0 -> g_0_1 -> g_0_2 -> g_0_3 -> g_1_3 -> g_1_4 -> g_2_4 -> g_3_4 -> g_4_4,True
+synthetic_grid_00,grid,6,dijkstra_expected_time_path,1,False,x_0,g_0_0 -> g_0_1 -> g_0_2 -> g_0_3 -> g_0_4 -> g_1_4 -> g_2_4 -> g_3_4 -> g_4_4,True
+synthetic_grid_00,grid,6,exact_risk_argmin,1,False,x_3,g_0_0 -> g_0_1 -> g_0_2 -> g_0_3 -> g_1_3 -> g_1_4 -> g_2_4 -> g_3_4 -> g_4_4,True
+synthetic_grid_00,grid,6,minimum_upper_bound_heuristic,1,False,x_3,g_0_0 -> g_0_1 -> g_0_2 -> g_0_3 -> g_1_3 -> g_1_4 -> g_2_4 -> g_3_4 -> g_4_4,True
+synthetic_grid_00,grid,8,shortest_distance_candidate,8,True,x_0,g_0_0 -> g_0_1 -> g_0_2 -> g_0_3 -> g_0_4 -> g_1_4 -> g_2_4 -> g_3_4 -> g_4_4,True
+synthetic_grid_00,grid,8,dijkstra_shortest_distance_path,70,True,x_0,g_0_0 -> g_0_1 -> g_0_2 -> g_0_3 -> g_0_4 -> g_1_4 -> g_2_4 -> g_3_4 -> g_4_4,True
+synthetic_grid_00,grid,8,shortest_expected_time_candidate,1,False,x_7,g_0_0 -> g_0_1 -> g_0_2 -> g_0_3 -> g_1_3 -> g_2_3 -> g_2_4 -> g_3_4 -> g_4_4,True
+synthetic_grid_00,grid,8,dijkstra_expected_time_path,1,False,x_0,g_0_0 -> g_0_1 -> g_0_2 -> g_0_3 -> g_0_4 -> g_1_4 -> g_2_4 -> g_3_4 -> g_4_4,True
+synthetic_grid_00,grid,8,exact_risk_argmin,1,False,x_7,g_0_0 -> g_0_1 -> g_0_2 -> g_0_3 -> g_1_3 -> g_2_3 -> g_2_4 -> g_3_4 -> g_4_4,True
+synthetic_grid_00,grid,8,minimum_upper_bound_heuristic,1,False,x_7,g_0_0 -> g_0_1 -> g_0_2 -> g_0_3 -> g_1_3 -> g_2_3 -> g_2_4 -> g_3_4 -> g_4_4,True
+synthetic_irregular_00,irregular_geometric,4,shortest_distance_candidate,1,False,x_0,n_004 -> n_020 -> n_001 -> n_002 -> n_011 -> n_023 -> n_009 -> n_018,True
+synthetic_irregular_00,irregular_geometric,4,dijkstra_shortest_distance_path,1,False,x_0,n_004 -> n_020 -> n_001 -> n_002 -> n_011 -> n_023 -> n_009 -> n_018,True
+synthetic_irregular_00,irregular_geometric,4,shortest_expected_time_candidate,1,False,x_1,n_004 -> n_015 -> n_020 -> n_001 -> n_002 -> n_011 -> n_023 -> n_009 -> n_018,True
+synthetic_irregular_00,irregular_geometric,4,dijkstra_expected_time_path,1,False,x_0,n_004 -> n_020 -> n_001 -> n_002 -> n_011 -> n_023 -> n_009 -> n_018,True
+synthetic_irregular_00,irregular_geometric,4,exact_risk_argmin,1,False,x_0,n_004 -> n_020 -> n_001 -> n_002 -> n_011 -> n_023 -> n_009 -> n_018,True
+synthetic_irregular_00,irregular_geometric,4,minimum_upper_bound_heuristic,1,False,x_1,n_004 -> n_015 -> n_020 -> n_001 -> n_002 -> n_011 -> n_023 -> n_009 -> n_018,True
+synthetic_irregular_00,irregular_geometric,6,shortest_distance_candidate,1,False,x_0,n_004 -> n_020 -> n_001 -> n_002 -> n_011 -> n_023 -> n_009 -> n_018,True
+synthetic_irregular_00,irregular_geometric,6,dijkstra_shortest_distance_path,1,False,x_0,n_004 -> n_020 -> n_001 -> n_002 -> n_011 -> n_023 -> n_009 -> n_018,True
+synthetic_irregular_00,irregular_geometric,6,shortest_expected_time_candidate,1,False,x_1,n_004 -> n_015 -> n_020 -> n_001 -> n_002 -> n_011 -> n_023 -> n_009 -> n_018,True
+synthetic_irregular_00,irregular_geometric,6,dijkstra_expected_time_path,1,False,x_0,n_004 -> n_020 -> n_001 -> n_002 -> n_011 -> n_023 -> n_009 -> n_018,True
+synthetic_irregular_00,irregular_geometric,6,exact_risk_argmin,1,False,x_0,n_004 -> n_020 -> n_001 -> n_002 -> n_011 -> n_023 -> n_009 -> n_018,True
+synthetic_irregular_00,irregular_geometric,6,minimum_upper_bound_heuristic,1,False,x_1,n_004 -> n_015 -> n_020 -> n_001 -> n_002 -> n_011 -> n_023 -> n_009 -> n_018,True
+synthetic_irregular_00,irregular_geometric,8,shortest_distance_candidate,1,False,x_0,n_004 -> n_020 -> n_001 -> n_002 -> n_011 -> n_023 -> n_009 -> n_018,True
+synthetic_irregular_00,irregular_geometric,8,dijkstra_shortest_distance_path,1,False,x_0,n_004 -> n_020 -> n_001 -> n_002 -> n_011 -> n_023 -> n_009 -> n_018,True
+synthetic_irregular_00,irregular_geometric,8,shortest_expected_time_candidate,1,False,x_1,n_004 -> n_015 -> n_020 -> n_001 -> n_002 -> n_011 -> n_023 -> n_009 -> n_018,True
+synthetic_irregular_00,irregular_geometric,8,dijkstra_expected_time_path,1,False,x_0,n_004 -> n_020 -> n_001 -> n_002 -> n_011 -> n_023 -> n_009 -> n_018,True
+synthetic_irregular_00,irregular_geometric,8,exact_risk_argmin,1,False,x_0,n_004 -> n_020 -> n_001 -> n_002 -> n_011 -> n_023 -> n_009 -> n_018,True
+synthetic_irregular_00,irregular_geometric,8,minimum_upper_bound_heuristic,1,False,x_1,n_004 -> n_015 -> n_020 -> n_001 -> n_002 -> n_011 -> n_023 -> n_009 -> n_018,True
+synthetic_radial_00,radial,4,shortest_distance_candidate,1,False,x_0,r_3_s_0 -> r_2_s_0 -> r_1_s_0 -> center -> r_1_s_4 -> r_2_s_4 -> r_3_s_4,True
+synthetic_radial_00,radial,4,dijkstra_shortest_distance_path,1,False,x_0,r_3_s_0 -> r_2_s_0 -> r_1_s_0 -> center -> r_1_s_4 -> r_2_s_4 -> r_3_s_4,True
+synthetic_radial_00,radial,4,shortest_expected_time_candidate,1,False,x_0,r_3_s_0 -> r_2_s_0 -> r_1_s_0 -> center -> r_1_s_4 -> r_2_s_4 -> r_3_s_4,True
+synthetic_radial_00,radial,4,dijkstra_expected_time_path,1,False,x_0,r_3_s_0 -> r_2_s_0 -> r_1_s_0 -> center -> r_1_s_4 -> r_2_s_4 -> r_3_s_4,True
+synthetic_radial_00,radial,4,exact_risk_argmin,1,False,x_0,r_3_s_0 -> r_2_s_0 -> r_1_s_0 -> center -> r_1_s_4 -> r_2_s_4 -> r_3_s_4,True
+synthetic_radial_00,radial,4,minimum_upper_bound_heuristic,1,False,x_0,r_3_s_0 -> r_2_s_0 -> r_1_s_0 -> center -> r_1_s_4 -> r_2_s_4 -> r_3_s_4,True
+synthetic_radial_00,radial,6,shortest_distance_candidate,1,False,x_0,r_3_s_0 -> r_2_s_0 -> r_1_s_0 -> center -> r_1_s_4 -> r_2_s_4 -> r_3_s_4,True
+synthetic_radial_00,radial,6,dijkstra_shortest_distance_path,1,False,x_0,r_3_s_0 -> r_2_s_0 -> r_1_s_0 -> center -> r_1_s_4 -> r_2_s_4 -> r_3_s_4,True
+synthetic_radial_00,radial,6,shortest_expected_time_candidate,1,False,x_0,r_3_s_0 -> r_2_s_0 -> r_1_s_0 -> center -> r_1_s_4 -> r_2_s_4 -> r_3_s_4,True
+synthetic_radial_00,radial,6,dijkstra_expected_time_path,1,False,x_0,r_3_s_0 -> r_2_s_0 -> r_1_s_0 -> center -> r_1_s_4 -> r_2_s_4 -> r_3_s_4,True
+synthetic_radial_00,radial,6,exact_risk_argmin,1,False,x_0,r_3_s_0 -> r_2_s_0 -> r_1_s_0 -> center -> r_1_s_4 -> r_2_s_4 -> r_3_s_4,True
+synthetic_radial_00,radial,6,minimum_upper_bound_heuristic,1,False,x_0,r_3_s_0 -> r_2_s_0 -> r_1_s_0 -> center -> r_1_s_4 -> r_2_s_4 -> r_3_s_4,True
+synthetic_radial_00,radial,8,shortest_distance_candidate,1,False,x_0,r_3_s_0 -> r_2_s_0 -> r_1_s_0 -> center -> r_1_s_4 -> r_2_s_4 -> r_3_s_4,True
+synthetic_radial_00,radial,8,dijkstra_shortest_distance_path,1,False,x_0,r_3_s_0 -> r_2_s_0 -> r_1_s_0 -> center -> r_1_s_4 -> r_2_s_4 -> r_3_s_4,True
+synthetic_radial_00,radial,8,shortest_expected_time_candidate,1,False,x_0,r_3_s_0 -> r_2_s_0 -> r_1_s_0 -> center -> r_1_s_4 -> r_2_s_4 -> r_3_s_4,True
+synthetic_radial_00,radial,8,dijkstra_expected_time_path,1,False,x_0,r_3_s_0 -> r_2_s_0 -> r_1_s_0 -> center -> r_1_s_4 -> r_2_s_4 -> r_3_s_4,True
+synthetic_radial_00,radial,8,exact_risk_argmin,1,False,x_0,r_3_s_0 -> r_2_s_0 -> r_1_s_0 -> center -> r_1_s_4 -> r_2_s_4 -> r_3_s_4,True
+synthetic_radial_00,radial,8,minimum_upper_bound_heuristic,1,False,x_0,r_3_s_0 -> r_2_s_0 -> r_1_s_0 -> center -> r_1_s_4 -> r_2_s_4 -> r_3_s_4,True
+synthetic_sparse_mixed_00,sparse_mixed,4,shortest_distance_candidate,1,False,x_0,n_004 -> n_003 -> n_008 -> n_007 -> n_012 -> n_011 -> n_010 -> n_015 -> n_020,True
+synthetic_sparse_mixed_00,sparse_mixed,4,dijkstra_shortest_distance_path,1,False,x_0,n_004 -> n_003 -> n_008 -> n_007 -> n_012 -> n_011 -> n_010 -> n_015 -> n_020,True
+synthetic_sparse_mixed_00,sparse_mixed,4,shortest_expected_time_candidate,1,False,x_1,n_004 -> n_009 -> n_008 -> n_007 -> n_012 -> n_011 -> n_010 -> n_015 -> n_020,True
+synthetic_sparse_mixed_00,sparse_mixed,4,dijkstra_expected_time_path,1,False,x_0,n_004 -> n_003 -> n_008 -> n_007 -> n_012 -> n_011 -> n_010 -> n_015 -> n_020,True
+synthetic_sparse_mixed_00,sparse_mixed,4,exact_risk_argmin,1,False,x_1,n_004 -> n_009 -> n_008 -> n_007 -> n_012 -> n_011 -> n_010 -> n_015 -> n_020,True
+synthetic_sparse_mixed_00,sparse_mixed,4,minimum_upper_bound_heuristic,1,False,x_1,n_004 -> n_009 -> n_008 -> n_007 -> n_012 -> n_011 -> n_010 -> n_015 -> n_020,True
+synthetic_sparse_mixed_00,sparse_mixed,6,shortest_distance_candidate,1,False,x_0,n_004 -> n_003 -> n_008 -> n_007 -> n_012 -> n_011 -> n_010 -> n_015 -> n_020,True
+synthetic_sparse_mixed_00,sparse_mixed,6,dijkstra_shortest_distance_path,1,False,x_0,n_004 -> n_003 -> n_008 -> n_007 -> n_012 -> n_011 -> n_010 -> n_015 -> n_020,True
+synthetic_sparse_mixed_00,sparse_mixed,6,shortest_expected_time_candidate,1,False,x_1,n_004 -> n_009 -> n_008 -> n_007 -> n_012 -> n_011 -> n_010 -> n_015 -> n_020,True
+synthetic_sparse_mixed_00,sparse_mixed,6,dijkstra_expected_time_path,1,False,x_0,n_004 -> n_003 -> n_008 -> n_007 -> n_012 -> n_011 -> n_010 -> n_015 -> n_020,True
+synthetic_sparse_mixed_00,sparse_mixed,6,exact_risk_argmin,1,False,x_1,n_004 -> n_009 -> n_008 -> n_007 -> n_012 -> n_011 -> n_010 -> n_015 -> n_020,True
+synthetic_sparse_mixed_00,sparse_mixed,6,minimum_upper_bound_heuristic,1,False,x_1,n_004 -> n_009 -> n_008 -> n_007 -> n_012 -> n_011 -> n_010 -> n_015 -> n_020,True
+synthetic_sparse_mixed_00,sparse_mixed,8,shortest_distance_candidate,1,False,x_0,n_004 -> n_003 -> n_008 -> n_007 -> n_012 -> n_011 -> n_010 -> n_015 -> n_020,True
+synthetic_sparse_mixed_00,sparse_mixed,8,dijkstra_shortest_distance_path,1,False,x_0,n_004 -> n_003 -> n_008 -> n_007 -> n_012 -> n_011 -> n_010 -> n_015 -> n_020,True
+synthetic_sparse_mixed_00,sparse_mixed,8,shortest_expected_time_candidate,1,False,x_1,n_004 -> n_009 -> n_008 -> n_007 -> n_012 -> n_011 -> n_010 -> n_015 -> n_020,True
+synthetic_sparse_mixed_00,sparse_mixed,8,dijkstra_expected_time_path,1,False,x_0,n_004 -> n_003 -> n_008 -> n_007 -> n_012 -> n_011 -> n_010 -> n_015 -> n_020,True
+synthetic_sparse_mixed_00,sparse_mixed,8,exact_risk_argmin,1,False,x_1,n_004 -> n_009 -> n_008 -> n_007 -> n_012 -> n_011 -> n_010 -> n_015 -> n_020,True
+synthetic_sparse_mixed_00,sparse_mixed,8,minimum_upper_bound_heuristic,1,False,x_1,n_004 -> n_009 -> n_008 -> n_007 -> n_012 -> n_011 -> n_010 -> n_015 -> n_020,True

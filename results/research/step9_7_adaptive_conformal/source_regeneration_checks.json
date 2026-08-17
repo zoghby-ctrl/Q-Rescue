@@ -1,0 +1,8 @@
+{
+  "max_absolute_numeric_csv_roundtrip_delta": 7.105427357601002e-15,
+  "nonzero_numeric_csv_roundtrip_delta_count": 25159,
+  "numeric_column_count_compared": 20,
+  "observation_count": 9408,
+  "observation_id_and_metadata_exact_match": true,
+  "reconstruction_reason": "decimal CSV round trips can cross fitted histogram-tree split thresholds; accepted Step 9 Python sources and config must be hash-verified"
+}

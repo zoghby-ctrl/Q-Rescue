@@ -1,0 +1,9 @@
+pennylane==0.45.1
+numpy==2.4.4
+pandas==2.3.3
+networkx==3.6.1
+matplotlib==3.11.1
+scikit-learn==1.7.1
+joblib==1.5.3
+streamlit==1.57.0
+starlette==0.47.3

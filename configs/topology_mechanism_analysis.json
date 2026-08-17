@@ -1,0 +1,41 @@
+{
+  "experiment_name": "step9_6b_exploratory_topology_mechanisms",
+  "design_status": "post-hoc exploratory after the primary Step 9.2 results; not confirmatory",
+  "confidence": 0.95,
+  "bootstrap_resamples": 10000,
+  "sign_flip_permutations": 100000,
+  "bootstrap_seed": 962100,
+  "permutation_seed": 962200,
+  "independent_cluster": "network_id",
+  "source_directory": "results/research/step9_2_topology_uncertainty_qaoa",
+  "graph_predictors": [
+    "directed_simple_density",
+    "undirected_average_degree",
+    "undirected_degree_variance",
+    "undirected_average_shortest_path_length",
+    "undirected_average_clustering",
+    "route_mean_jaccard_similarity",
+    "route_mean_jaccard_diversity"
+  ],
+  "problem_predictors": [
+    "candidate_expected_time_spread",
+    "candidate_risk_spread",
+    "best_second_risk_gap",
+    "mean_candidate_uncertainty_half_width",
+    "candidate_uncertainty_spread",
+    "route_mean_jaccard_similarity"
+  ],
+  "outcomes": [
+    "optimal_state_probability",
+    "normalized_feasible_entropy",
+    "risk_regret",
+    "selected_realized_deadline_violation",
+    "selected_realized_regret_vs_actual_fastest_minutes"
+  ],
+  "interpretation_policy": {
+    "causality": "No association is interpreted causally.",
+    "multiplicity": "Problem-level within-network sign-flip p-values use Holm correction across the full exploratory family.",
+    "graph_associations": "Graph-level Spearman intervals are descriptive because topology family and graph properties are deliberately coupled in this controlled design.",
+    "small_samples": "Topology-specific intervals contain ten independent network instances; within-network problem correlations contain only six matched K-by-uncertainty problems."
+  }
+}

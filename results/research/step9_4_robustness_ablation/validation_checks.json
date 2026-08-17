@@ -1,0 +1,38 @@
+{
+  "alpha_0_10_decision_count": 15,
+  "alpha_values": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "conformal_scope_metrics_not_pooled": true,
+  "dynamic_pairing_unique": true,
+  "dynamic_targeted_actual_runs": 175,
+  "dynamic_targeted_complete": true,
+  "dynamic_targeted_expected_runs": 175,
+  "failed_required_checks": [],
+  "hardware_runs_performed": false,
+  "prediction_noise_interval_row_present": true,
+  "prediction_noise_model_row_present": true,
+  "qaoa_combined_run_count": 114,
+  "qaoa_feasible_xy_validity_preserved": true,
+  "qaoa_inherited_run_count": 106,
+  "qaoa_scaling_K6_K8_p1_p2_p3_cells_complete": true,
+  "qaoa_targeted_run_count": 8,
+  "qaoa_warm_start_used_anywhere": false,
+  "qubo_penalty_instance_count": 15,
+  "required_checks_passed": true,
+  "risk_weight_candidate_counts_complete": true,
+  "runtime_comparisons_reported": false,
+  "safe_reference_all_exact_routes_ground": true,
+  "safe_reference_all_ground_states_valid": true,
+  "static_candidate_counts": [
+    4,
+    6,
+    8
+  ],
+  "static_full_matches_source_E": true,
+  "static_full_source_E_decisions": 15,
+  "unsafe_low_penalty_failures_observed": true,
+  "warm_start_explicitly_not_implemented": true
+}

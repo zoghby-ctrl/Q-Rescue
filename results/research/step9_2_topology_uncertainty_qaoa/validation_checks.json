@@ -1,0 +1,11 @@
+{
+  "all_checks_pass": true,
+  "all_factorial_cells_n10": true,
+  "all_mixer_pairs_match_problem_and_seed": true,
+  "all_xy_feasibility_one": true,
+  "factorial_cell_count": 180,
+  "failed_checkpoint_count": 0,
+  "matched_pair_count": 900,
+  "problem_count": 300,
+  "trial_count": 1800
+}

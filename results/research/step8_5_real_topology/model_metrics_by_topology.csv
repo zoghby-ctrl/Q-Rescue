@@ -1,0 +1,5 @@
+study_label,topology,n_samples,mae,rmse,r2
+real road topology with controlled simulated traffic,mixed_planned_radial,96,1.2405831688865794,1.337348930782512,-2.7762865473409803
+real road topology with controlled simulated traffic,organic_irregular,96,1.739782052715982,1.8876000044569838,-0.29297742018279527
+real road topology with controlled simulated traffic,orthogonal_grid,96,1.0919392610711975,1.243351913860042,-1.6611979477525622
+real road topology with controlled simulated traffic,radial_hub,96,1.3004106427385969,1.3900241667948845,-3.4595204083481157

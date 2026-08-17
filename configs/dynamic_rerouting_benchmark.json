@@ -1,0 +1,26 @@
+{
+  "experiment_name": "step8_dynamic_rerouting",
+  "network_config": "configs/traffic_ai_benchmark.json",
+  "step4_artifacts": "results/research/step4_traffic_ai",
+  "step5_artifacts": "results/research/step5_conformal",
+  "policies": [
+    "never_reroute",
+    "expected_time_rerouting",
+    "uncertainty_aware_classical",
+    "uncertainty_aware_qaoa"
+  ],
+  "candidate_count": 4,
+  "deadline_multiplier_over_base_shortest_time": 1.8,
+  "reroute_penalty_minutes": 1.5,
+  "simulation_seed": 8100,
+  "qaoa_depth": 1,
+  "qaoa_iterations": 12,
+  "qaoa_step_size": 0.05,
+  "qaoa_seed": 8200,
+  "risk_weights": {
+    "lambda_uncertainty": 1.0,
+    "lambda_deadline": 2.0,
+    "lambda_reroute": 1.0
+  }
+}
+

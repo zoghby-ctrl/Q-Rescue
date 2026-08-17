@@ -1,0 +1,234 @@
+{
+  "analysis_policy": {
+    "deadline_fixed_across_uncertainty": true,
+    "dynamic_reroute_variant_primary_applicable": false,
+    "hardware": false,
+    "matched_problem_inputs_for_mixers": true,
+    "negative_results_retained": true,
+    "objective_components_isolated": true,
+    "quantum_advantage_claim": false,
+    "simulator_runtime_speed_claim": false
+  },
+  "design_version": "2.1-publication-freeze-common-k8-deadline",
+  "experiment_name": "step9_2_feasibility_without_utility",
+  "inherited_sources": {
+    "dynamic_manifest": {
+      "path": "results/research/step8_dynamic_rerouting/manifest.json",
+      "sha256": "092aee9ca5700aaaa429f1aae838a125a692239eaf7ec4d085ebbe33c32b3af6"
+    },
+    "dynamic_qaoa_decisions": {
+      "path": "results/research/step8_dynamic_rerouting/dynamic_qaoa_decisions.csv",
+      "sha256": "6236a2d7336af1ebabadcc0284161fa1f29d2e2648c8a884beaa0b6e9d55a6e6"
+    },
+    "dynamic_runs": {
+      "path": "results/research/step8_dynamic_rerouting/dynamic_runs.csv",
+      "sha256": "bb156dff282a7413347a02b76874ffd1522fbf4fe26048aa34a7c179a4a26411"
+    },
+    "point_model": {
+      "path": "results/research/step9_cross_network/best_model.joblib",
+      "sha256": "6043e4c789a0651f36ea611f8716828ee22ecd72ed14866bf3e0a7a66a36bee5"
+    },
+    "residual_scale_model": {
+      "path": "results/research/step9_cross_network/residual_scale_model.joblib",
+      "sha256": "1d706e6fd376215bf55d40c9306600fc6b97c3ea1f0e5c215a49a694e16f0e80"
+    },
+    "step9_manifest": {
+      "path": "results/research/step9_cross_network/manifest.json",
+      "sha256": "f35b5b8ea519c78d139a7bb1e414f536c0fff4efd188ac4abf25a30a77ccf265"
+    },
+    "traffic_observations": {
+      "path": "results/research/step9_cross_network/traffic_observations.csv",
+      "sha256": "cc626895ca21b1e074b55a2c6afa7afe7a8f144a334eb58cd78d4b19ae6ab27d"
+    }
+  },
+  "primary_design": {
+    "base_calibration_scenario": "normal",
+    "base_time_multiplier": 1.0,
+    "baseline_prediction_noise_fraction": 0.03,
+    "calibration_dataset_group": "calibration",
+    "candidate_counts": [
+      4,
+      8
+    ],
+    "conformal_alpha": 0.1,
+    "deadline_prediction_quantile": 0.4,
+    "default_workers": 3,
+    "depths": [
+      1,
+      3,
+      5
+    ],
+    "expected_problem_count": 300,
+    "expected_qaoa_trial_count": 1800,
+    "graph_seed_base": 920000,
+    "iterations": 15,
+    "matched_seed_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "mixers": [
+      "standard_x",
+      "feasible_xy"
+    ],
+    "objective_variants": [
+      "A_expected_time",
+      "B_expected_plus_deadline",
+      "C_expected_plus_deadline_plus_uncertainty"
+    ],
+    "operational_outcome_seed_base": 923000,
+    "operational_reference_dataset_group": "test_id",
+    "optimization_seed_base": 924000,
+    "qaoa_objective_variant": "C_expected_plus_deadline_plus_uncertainty",
+    "risk_weights": {
+      "lambda_deadline": 2.0,
+      "lambda_reroute": 1.0,
+      "lambda_uncertainty": 1.0
+    },
+    "step_size": 0.05,
+    "topologies": {
+      "dense_mixed": {
+        "parameters": {
+          "height_km": 5.0,
+          "local_neighbors": 5,
+          "node_count": 24,
+          "width_km": 5.2
+        },
+        "seed_offset": 400
+      },
+      "grid": {
+        "parameters": {
+          "columns": 5,
+          "rows": 5,
+          "spacing_km": 0.5
+        },
+        "seed_offset": 0
+      },
+      "irregular_geometric": {
+        "parameters": {
+          "height_km": 4.6,
+          "local_neighbors": 4,
+          "node_count": 24,
+          "width_km": 5.2
+        },
+        "seed_offset": 200
+      },
+      "radial": {
+        "parameters": {
+          "ring_spacing_km": 0.55,
+          "rings": 3,
+          "spokes": 8
+        },
+        "seed_offset": 100
+      },
+      "sparse_mixed": {
+        "parameters": {
+          "height_km": 5.0,
+          "local_neighbors": 3,
+          "node_count": 24,
+          "width_km": 5.2
+        },
+        "seed_offset": 300
+      }
+    },
+    "traffic_state": {
+      "congestion_high": 0.82,
+      "congestion_low": 0.18,
+      "day_of_week": 1,
+      "historical_delay_gamma_scale": 0.65,
+      "historical_delay_gamma_shape": 1.5,
+      "hour_of_day": 8,
+      "incident_probability": 0.18,
+      "rain_probability": 0.3,
+      "sensor_noise_fraction": 0.03
+    },
+    "traffic_state_seed_base": 922000,
+    "uncertainty_calibration_seed": 921000,
+    "uncertainty_monte_carlo_draws": 2048,
+    "uncertainty_regimes": {
+      "high": {
+        "target_prediction_noise_fraction": 0.25
+      },
+      "low": {
+        "target_prediction_noise_fraction": 0.03
+      },
+      "medium": {
+        "target_prediction_noise_fraction": 0.1
+      }
+    }
+  },
+  "runtime_preflight": {
+    "benchmark_iterations": 8,
+    "cells": [
+      {
+        "K": 4,
+        "depth": 1,
+        "mixer": "standard_x"
+      },
+      {
+        "K": 4,
+        "depth": 1,
+        "mixer": "feasible_xy"
+      },
+      {
+        "K": 4,
+        "depth": 3,
+        "mixer": "standard_x"
+      },
+      {
+        "K": 4,
+        "depth": 3,
+        "mixer": "feasible_xy"
+      },
+      {
+        "K": 4,
+        "depth": 5,
+        "mixer": "standard_x"
+      },
+      {
+        "K": 4,
+        "depth": 5,
+        "mixer": "feasible_xy"
+      },
+      {
+        "K": 8,
+        "depth": 1,
+        "mixer": "standard_x"
+      },
+      {
+        "K": 8,
+        "depth": 1,
+        "mixer": "feasible_xy"
+      },
+      {
+        "K": 8,
+        "depth": 3,
+        "mixer": "standard_x"
+      },
+      {
+        "K": 8,
+        "depth": 3,
+        "mixer": "feasible_xy"
+      },
+      {
+        "K": 8,
+        "depth": 5,
+        "mixer": "standard_x"
+      },
+      {
+        "K": 8,
+        "depth": 5,
+        "mixer": "feasible_xy"
+      }
+    ],
+    "representative_seed_id": 0,
+    "representative_uncertainty": "medium"
+  }
+}

@@ -1,0 +1,11 @@
+topology,variant,instance_count,changed_from_expected_count,changed_from_expected_rate,conservative_violation_count,conservative_violation_rate,mean_deadline_margin
+dense_mixed,A,3,0,0.0,0,0.0,0.825572951346348
+dense_mixed,D,3,0,0.0,0,0.0,0.825572951346348
+grid,A,3,0,0.0,0,0.0,0.8382700920374516
+grid,D,3,0,0.0,0,0.0,0.8382700920374516
+irregular_geometric,A,3,0,0.0,0,0.0,0.3099560654653348
+irregular_geometric,D,3,2,0.6666666666666666,0,0.0,0.5358630454163867
+radial,A,3,0,0.0,0,0.0,0.6199999572473143
+radial,D,3,0,0.0,0,0.0,0.6199999572473143
+sparse_mixed,A,3,0,0.0,0,0.0,1.3848700928637936
+sparse_mixed,D,3,1,0.3333333333333333,0,0.0,1.418307452914604

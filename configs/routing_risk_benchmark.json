@@ -1,0 +1,18 @@
+{
+  "experiment_name": "steps6_6_5_risk_candidate_routing",
+  "network_config": "configs/traffic_ai_benchmark.json",
+  "step4_artifacts": "results/research/step4_traffic_ai",
+  "step5_artifacts": "results/research/step5_conformal",
+  "candidate_counts": [4, 6, 8],
+  "conformal_method": "local_scaled",
+  "alpha": 0.10,
+  "state_seed": 6200,
+  "deadline_upper_bound_quantile": 0.40,
+  "reroute_penalty_minutes": 1.5,
+  "risk_weights": {
+    "lambda_uncertainty": 1.0,
+    "lambda_deadline": 2.0,
+    "lambda_reroute": 1.0
+  }
+}
+

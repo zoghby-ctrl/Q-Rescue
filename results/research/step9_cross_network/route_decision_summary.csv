@@ -1,0 +1,9 @@
+evaluation_group,selection_strategy,event_count,network_count,actual_deadline_violation_rate,mean_actual_deadline_margin_minutes,mean_actual_regret_minutes,median_actual_regret_minutes,actual_fastest_selection_rate,changed_from_expected_rate
+OOD-combined,calibrated_risk,16,4,1.0,-14.459497576957228,0.7256720972648971,0.18319418326550263,0.3125,0.375
+OOD-combined,expected_time,16,4,1.0,-14.706686954297668,0.9728614746053366,0.14133923314137675,0.375,0.375
+OOD-topology,calibrated_risk,16,4,0.75,-4.919286370229526,0.3486831101393282,0.08342932076572218,0.375,0.3125
+OOD-topology,expected_time,16,4,0.75,-5.133300244911501,0.5626969848213029,0.25338663483489476,0.25,0.3125
+OOD-traffic,calibrated_risk,16,4,1.0,-11.236404858566585,0.6443676594921592,0.0,0.6875,0.25
+OOD-traffic,expected_time,16,4,1.0,-11.96350302799299,1.371465828918565,0.0,0.625,0.25
+TEST-ID,calibrated_risk,16,4,0.8125,-4.394624494436801,0.5645456687211426,0.0,0.5625,0.125
+TEST-ID,expected_time,16,4,0.8125,-4.461338420751217,0.6312595950355588,0.0,0.5625,0.125

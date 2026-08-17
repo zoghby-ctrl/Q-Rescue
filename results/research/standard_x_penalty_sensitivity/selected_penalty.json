@@ -1,0 +1,13 @@
+{
+  "selected_penalty_condition": "validated_safe_default",
+  "selection_source": "validation seeds 0-2 only",
+  "test_seed_ids": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ]
+}

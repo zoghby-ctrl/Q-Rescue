@@ -1,0 +1,39 @@
+{
+  "experiment_name": "standard_x_penalty_sensitivity",
+  "design_version": "1.0-frozen-before-optimization",
+  "source_directory": "results/research/step9_2_topology_uncertainty_qaoa",
+  "K": 8,
+  "depth": 3,
+  "method": "standard_x",
+  "uncertainty": "medium",
+  "topologies": ["grid", "radial", "irregular_geometric", "sparse_mixed", "dense_mixed"],
+  "validation_seed_ids": [0, 1, 2],
+  "test_seed_ids": [3, 4, 5, 6, 7, 8, 9],
+  "iterations": 15,
+  "step_size": 0.05,
+  "default_workers": 3,
+  "penalty_conditions": [
+    {"name": "half_threshold", "formula": "0.50 * min_risk", "ratio_to_exact_threshold": 0.50},
+    {"name": "near_below_threshold", "formula": "0.95 * min_risk", "ratio_to_exact_threshold": 0.95},
+    {"name": "threshold_tie", "formula": "1.00 * min_risk", "ratio_to_exact_threshold": 1.00},
+    {"name": "near_above_threshold", "formula": "1.05 * min_risk", "ratio_to_exact_threshold": 1.05},
+    {"name": "twice_threshold", "formula": "2.00 * min_risk", "ratio_to_exact_threshold": 2.00},
+    {"name": "validated_safe_default", "formula": "max_risk + 1.0", "ratio_to_exact_threshold": null},
+    {"name": "very_large", "formula": "10.00 * min_risk", "ratio_to_exact_threshold": 10.00}
+  ],
+  "validation_selection_rule": {
+    "eligibility": "global QUBO ground states must all be feasible on every validation problem",
+    "criterion": "highest validation mean optimal_state_probability",
+    "tie_break": "smaller median ratio_to_exact_threshold",
+    "test_reporting": "report the selected-vs-default contrast and the complete seven-condition test grid"
+  },
+  "bootstrap_resamples": 20000,
+  "bootstrap_seed": 995000,
+  "policy": {
+    "same_problem_and_initial_angles_across_penalties": true,
+    "fixed_optimizer_hyperparameters_across_penalties": true,
+    "no_test_set_tuning": true,
+    "all_test_conditions_retained": true,
+    "quantum_advantage_claimed": false
+  }
+}

@@ -1,0 +1,2 @@
+problem_id,penalty_condition,benchmark_iterations,wall_time_seconds,estimated_sequential_seconds_with_25pct_margin,estimated_parallel_seconds_at_default_workers
+grid_s00_medium_K8,validated_safe_default,3,1.345379000005778,2943.016562512639,981.0055208375464

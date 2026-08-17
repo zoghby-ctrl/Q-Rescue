@@ -1,0 +1,6 @@
+original_step9_partition,calibration,heldout,train,validation,distinct_fold_roles,original_label_reused_as_fixed_role
+calibration,20,4,36,20,4,False
+ood_topology,20,4,36,20,4,False
+test_id,20,4,36,20,4,False
+train,20,4,36,20,4,False
+validation,20,4,36,20,4,False

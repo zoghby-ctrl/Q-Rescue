@@ -1,0 +1,3 @@
+study_label,method,run_count,mean_valid_probability,mean_optimal_probability,most_probable_valid_optimum_rate
+real road topology with controlled simulated traffic,feasible_xy,4,1.0,0.43280227784964487,0.5
+real road topology with controlled simulated traffic,standard_x,4,0.48479468051566876,0.12668460256237707,0.75

@@ -1,0 +1,213 @@
+{
+  "experiment_name": "step9_cross_network_generalization",
+  "held_out_topology_family": "irregular_geometric",
+  "candidate_k": 4,
+  "historical_scenarios": [
+    "normal",
+    "rush",
+    "rain",
+    "congestion",
+    "accident",
+    "prediction_noise"
+  ],
+  "observations_per_network_per_scenario": 56,
+  "shift_observations_per_network": 336,
+  "seeds": {
+    "traffic_train": 910100,
+    "traffic_validation": 910200,
+    "traffic_calibration": 910300,
+    "traffic_test_id": 910400,
+    "traffic_ood_topology": 910500,
+    "traffic_ood_shift": 910600,
+    "traffic_ood_combined": 910700,
+    "model": 910800,
+    "residual_scale": 910900,
+    "route_decisions": 911000,
+    "qaoa": 911100
+  },
+  "random_forest_trees": 120,
+  "residual_scale_trees": 100,
+  "residual_scale_minimum_minutes": 0.25,
+  "relative_minimum_scale_minutes": 1.0,
+  "conformal_alphas": [0.05, 0.10, 0.20],
+  "risk_weights": {
+    "lambda_uncertainty": 1.0,
+    "lambda_deadline": 2.0,
+    "lambda_reroute": 0.0
+  },
+  "deadline_free_flow_multiplier": 1.40,
+  "route_decision_scenarios": ["normal", "rush", "rain", "accident"],
+  "route_decision_events_per_network": 4,
+  "risk_conformal_method": "local",
+  "risk_conformal_alpha": 0.10,
+  "qaoa": {
+    "methods": ["standard_x", "feasible_xy"],
+    "depth": 1,
+    "iterations": 15,
+    "step_size": 0.05,
+    "shots": 2000,
+    "representatives_per_group_topology": 1
+  },
+  "networks": [
+    {
+      "network_id": "grid_train",
+      "topology": "grid",
+      "partition": "train",
+      "seed": 910001,
+      "base_time_multiplier": 0.90,
+      "parameters": {"rows": 4, "columns": 4, "spacing_km": 0.45}
+    },
+    {
+      "network_id": "grid_validation",
+      "topology": "grid",
+      "partition": "validation",
+      "seed": 910002,
+      "base_time_multiplier": 0.98,
+      "parameters": {"rows": 4, "columns": 5, "spacing_km": 0.50}
+    },
+    {
+      "network_id": "grid_calibration",
+      "topology": "grid",
+      "partition": "calibration",
+      "seed": 910003,
+      "base_time_multiplier": 1.05,
+      "parameters": {"rows": 5, "columns": 5, "spacing_km": 0.52}
+    },
+    {
+      "network_id": "grid_test_id",
+      "topology": "grid",
+      "partition": "test_id",
+      "seed": 910004,
+      "base_time_multiplier": 1.12,
+      "parameters": {"rows": 5, "columns": 6, "spacing_km": 0.55}
+    },
+    {
+      "network_id": "radial_train",
+      "topology": "radial",
+      "partition": "train",
+      "seed": 910011,
+      "base_time_multiplier": 0.90,
+      "parameters": {"spokes": 6, "rings": 2, "ring_spacing_km": 0.48}
+    },
+    {
+      "network_id": "radial_validation",
+      "topology": "radial",
+      "partition": "validation",
+      "seed": 910012,
+      "base_time_multiplier": 0.98,
+      "parameters": {"spokes": 7, "rings": 2, "ring_spacing_km": 0.52}
+    },
+    {
+      "network_id": "radial_calibration",
+      "topology": "radial",
+      "partition": "calibration",
+      "seed": 910013,
+      "base_time_multiplier": 1.05,
+      "parameters": {"spokes": 7, "rings": 3, "ring_spacing_km": 0.56}
+    },
+    {
+      "network_id": "radial_test_id",
+      "topology": "radial",
+      "partition": "test_id",
+      "seed": 910014,
+      "base_time_multiplier": 1.12,
+      "parameters": {"spokes": 8, "rings": 3, "ring_spacing_km": 0.60}
+    },
+    {
+      "network_id": "sparse_mixed_train",
+      "topology": "sparse_mixed",
+      "partition": "train",
+      "seed": 910021,
+      "base_time_multiplier": 0.90,
+      "parameters": {"node_count": 16, "width_km": 4.0, "height_km": 4.0, "local_neighbors": 2}
+    },
+    {
+      "network_id": "sparse_mixed_validation",
+      "topology": "sparse_mixed",
+      "partition": "validation",
+      "seed": 910022,
+      "base_time_multiplier": 0.98,
+      "parameters": {"node_count": 20, "width_km": 4.6, "height_km": 4.4, "local_neighbors": 2}
+    },
+    {
+      "network_id": "sparse_mixed_calibration",
+      "topology": "sparse_mixed",
+      "partition": "calibration",
+      "seed": 910023,
+      "base_time_multiplier": 1.05,
+      "parameters": {"node_count": 24, "width_km": 5.0, "height_km": 4.8, "local_neighbors": 2}
+    },
+    {
+      "network_id": "sparse_mixed_test_id",
+      "topology": "sparse_mixed",
+      "partition": "test_id",
+      "seed": 910024,
+      "base_time_multiplier": 1.12,
+      "parameters": {"node_count": 28, "width_km": 5.6, "height_km": 5.2, "local_neighbors": 3}
+    },
+    {
+      "network_id": "dense_mixed_train",
+      "topology": "dense_mixed",
+      "partition": "train",
+      "seed": 910031,
+      "base_time_multiplier": 0.90,
+      "parameters": {"node_count": 16, "width_km": 4.0, "height_km": 4.0, "local_neighbors": 3}
+    },
+    {
+      "network_id": "dense_mixed_validation",
+      "topology": "dense_mixed",
+      "partition": "validation",
+      "seed": 910032,
+      "base_time_multiplier": 0.98,
+      "parameters": {"node_count": 20, "width_km": 4.6, "height_km": 4.4, "local_neighbors": 4}
+    },
+    {
+      "network_id": "dense_mixed_calibration",
+      "topology": "dense_mixed",
+      "partition": "calibration",
+      "seed": 910033,
+      "base_time_multiplier": 1.05,
+      "parameters": {"node_count": 24, "width_km": 5.0, "height_km": 4.8, "local_neighbors": 4}
+    },
+    {
+      "network_id": "dense_mixed_test_id",
+      "topology": "dense_mixed",
+      "partition": "test_id",
+      "seed": 910034,
+      "base_time_multiplier": 1.12,
+      "parameters": {"node_count": 28, "width_km": 5.6, "height_km": 5.2, "local_neighbors": 5}
+    },
+    {
+      "network_id": "irregular_geometric_ood_0",
+      "topology": "irregular_geometric",
+      "partition": "ood_topology",
+      "seed": 910041,
+      "base_time_multiplier": 0.90,
+      "parameters": {"node_count": 16, "width_km": 4.0, "height_km": 3.6, "local_neighbors": 2}
+    },
+    {
+      "network_id": "irregular_geometric_ood_1",
+      "topology": "irregular_geometric",
+      "partition": "ood_topology",
+      "seed": 910042,
+      "base_time_multiplier": 0.98,
+      "parameters": {"node_count": 20, "width_km": 4.6, "height_km": 4.0, "local_neighbors": 3}
+    },
+    {
+      "network_id": "irregular_geometric_ood_2",
+      "topology": "irregular_geometric",
+      "partition": "ood_topology",
+      "seed": 910043,
+      "base_time_multiplier": 1.05,
+      "parameters": {"node_count": 24, "width_km": 5.2, "height_km": 4.4, "local_neighbors": 3}
+    },
+    {
+      "network_id": "irregular_geometric_ood_3",
+      "topology": "irregular_geometric",
+      "partition": "ood_topology",
+      "seed": 910044,
+      "base_time_multiplier": 1.12,
+      "parameters": {"node_count": 28, "width_km": 5.8, "height_km": 4.8, "local_neighbors": 4}
+    }
+  ]
+}

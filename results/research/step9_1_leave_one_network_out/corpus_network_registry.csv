@@ -1,0 +1,21 @@
+network_id,topology,seed,original_step9_partition,base_time_multiplier,parameters_json,node_count,directed_edge_count,origin,destination,weak_component_count,strong_component_count
+dense_mixed_train,dense_mixed,910031,train,0.9,"{""height_km"": 4.0, ""local_neighbors"": 3, ""node_count"": 16, ""width_km"": 4.0}",16,58,n_003,n_012,1,1
+dense_mixed_validation,dense_mixed,910032,validation,0.98,"{""height_km"": 4.4, ""local_neighbors"": 4, ""node_count"": 20, ""width_km"": 4.6}",20,98,n_000,n_019,1,1
+dense_mixed_calibration,dense_mixed,910033,calibration,1.05,"{""height_km"": 4.8, ""local_neighbors"": 4, ""node_count"": 24, ""width_km"": 5.0}",24,112,n_000,n_023,1,1
+dense_mixed_test_id,dense_mixed,910034,test_id,1.12,"{""height_km"": 5.2, ""local_neighbors"": 5, ""node_count"": 28, ""width_km"": 5.6}",28,164,n_005,n_024,1,1
+grid_train,grid,910001,train,0.9,"{""columns"": 4, ""rows"": 4, ""spacing_km"": 0.45}",16,48,g_0_0,g_3_3,1,1
+grid_validation,grid,910002,validation,0.98,"{""columns"": 5, ""rows"": 4, ""spacing_km"": 0.5}",20,62,g_0_0,g_3_4,1,1
+grid_calibration,grid,910003,calibration,1.05,"{""columns"": 5, ""rows"": 5, ""spacing_km"": 0.52}",25,80,g_0_0,g_4_4,1,1
+grid_test_id,grid,910004,test_id,1.12,"{""columns"": 6, ""rows"": 5, ""spacing_km"": 0.55}",30,98,g_0_0,g_4_5,1,1
+irregular_geometric_ood_0,irregular_geometric,910041,ood_topology,0.9,"{""height_km"": 3.6, ""local_neighbors"": 2, ""node_count"": 16, ""width_km"": 4.0}",16,42,n_000,n_005,1,1
+irregular_geometric_ood_1,irregular_geometric,910042,ood_topology,0.98,"{""height_km"": 4.0, ""local_neighbors"": 3, ""node_count"": 20, ""width_km"": 4.6}",20,74,n_001,n_007,1,1
+irregular_geometric_ood_2,irregular_geometric,910043,ood_topology,1.05,"{""height_km"": 4.4, ""local_neighbors"": 3, ""node_count"": 24, ""width_km"": 5.2}",24,88,n_019,n_020,1,1
+irregular_geometric_ood_3,irregular_geometric,910044,ood_topology,1.12,"{""height_km"": 4.8, ""local_neighbors"": 4, ""node_count"": 28, ""width_km"": 5.8}",28,134,n_024,n_026,1,1
+radial_train,radial,910011,train,0.9,"{""ring_spacing_km"": 0.48, ""rings"": 2, ""spokes"": 6}",13,48,r_2_s_0,r_2_s_3,1,1
+radial_validation,radial,910012,validation,0.98,"{""ring_spacing_km"": 0.52, ""rings"": 2, ""spokes"": 7}",15,56,r_2_s_0,r_2_s_3,1,1
+radial_calibration,radial,910013,calibration,1.05,"{""ring_spacing_km"": 0.56, ""rings"": 3, ""spokes"": 7}",22,84,r_3_s_0,r_3_s_3,1,1
+radial_test_id,radial,910014,test_id,1.12,"{""ring_spacing_km"": 0.6, ""rings"": 3, ""spokes"": 8}",25,96,r_3_s_0,r_3_s_4,1,1
+sparse_mixed_train,sparse_mixed,910021,train,0.9,"{""height_km"": 4.0, ""local_neighbors"": 2, ""node_count"": 16, ""width_km"": 4.0}",16,40,n_000,n_015,1,1
+sparse_mixed_validation,sparse_mixed,910022,validation,0.98,"{""height_km"": 4.4, ""local_neighbors"": 2, ""node_count"": 20, ""width_km"": 4.6}",20,50,n_004,n_015,1,1
+sparse_mixed_calibration,sparse_mixed,910023,calibration,1.05,"{""height_km"": 4.8, ""local_neighbors"": 2, ""node_count"": 24, ""width_km"": 5.0}",24,58,n_000,n_023,1,1
+sparse_mixed_test_id,sparse_mixed,910024,test_id,1.12,"{""height_km"": 5.2, ""local_neighbors"": 3, ""node_count"": 28, ""width_km"": 5.6}",28,100,n_005,n_024,1,1

@@ -1,0 +1,4 @@
+uncertainty,uncertainty_index,target_prediction_noise_fraction,baseline_prediction_noise_fraction,additional_noise_fraction_by_quadrature,calibration_draw_count,calibration_seed,calibration_alpha,mechanism
+low,0,0.03,0.03,0.0,2048,921000,0.1,centered empirical normal-scenario standardized residual plus independent Gaussian observation noise from the existing base-time-scaled residual mechanism
+medium,1,0.1,0.03,0.09539392014169458,2048,921001,0.1,centered empirical normal-scenario standardized residual plus independent Gaussian observation noise from the existing base-time-scaled residual mechanism
+high,2,0.25,0.03,0.24819347291981714,2048,921002,0.1,centered empirical normal-scenario standardized residual plus independent Gaussian observation noise from the existing base-time-scaled residual mechanism

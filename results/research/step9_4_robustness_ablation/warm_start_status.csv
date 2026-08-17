@@ -1,0 +1,2 @@
+ablation,implemented,executed,comparison_valid,status,reason,invalid_action_avoided
+warm_start_qaoa,False,False,False,not_implemented_not_run,"A warm start requires a distinct, specified initializer and paired optimization protocol. Re-labeling cold-start angles would be invalid.",no fabricated warm-start baseline

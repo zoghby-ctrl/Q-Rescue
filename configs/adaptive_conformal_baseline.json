@@ -1,0 +1,40 @@
+{
+  "experiment_name": "step9_7_adaptive_conformal_baseline",
+  "design_version": "1.0-frozen-before-evaluation",
+  "target_alpha": 0.10,
+  "gamma": 0.005,
+  "minimum_alpha": 0.001,
+  "maximum_alpha": 0.50,
+  "sequence_order": ["network_id", "observation_id"],
+  "state_reset_scope": "evaluation_group_and_network_id",
+  "methods": ["absolute_split", "local_scaled_split", "adaptive_local_aci"],
+  "evaluation_groups": {
+    "TEST-ID": "test_id",
+    "OOD-topology": "ood_topology",
+    "OOD-traffic": "OOD-traffic",
+    "OOD-combined": "OOD-combined"
+  },
+  "objective": {
+    "variant": "C_expected_plus_point_deadline_plus_uncertainty",
+    "lambda_deadline": 2.0,
+    "lambda_uncertainty": 1.0,
+    "deadline_term_uses_point_prediction_only": true
+  },
+  "source_paths": {
+    "traffic_observations": "results/research/step9_cross_network/traffic_observations.csv",
+    "conformal_models": "results/research/step9_cross_network/conformal_models.joblib",
+    "existing_intervals": "results/research/step9_cross_network/conformal_intervals.csv",
+    "route_candidates": "results/research/step9_cross_network/route_decision_candidates.csv",
+    "effective_config": "results/research/step9_cross_network/effective_config.json",
+    "step9_manifest": "results/research/step9_cross_network/manifest.json"
+  },
+  "policy": {
+    "adaptation_rate_selected_without_test_tuning": true,
+    "interval_computed_before_current_label": true,
+    "point_and_scale_models_frozen": true,
+    "calibration_scores_frozen": true,
+    "source_float_reconstruction": "deterministically regenerate the original in-memory Step 9 observations and verify them against the saved CSV before prediction",
+    "route_feedback": "selected_adaptive_route_only_after_decision",
+    "coverage_guarantee_under_shift_claimed": false
+  }
+}

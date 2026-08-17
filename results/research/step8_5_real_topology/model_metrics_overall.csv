@@ -1,0 +1,2 @@
+study_label,n_samples,mae,rmse,r2
+real road topology with controlled simulated traffic,384,1.3431787813530889,1.48573442322849,-0.18663186027044043

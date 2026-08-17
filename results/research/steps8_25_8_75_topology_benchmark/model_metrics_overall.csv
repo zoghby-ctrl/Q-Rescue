@@ -1,0 +1,2 @@
+model_name,evaluation_scope,n_samples,mae,rmse,r2
+linear_regression,held_out_rows_known_networks,255,0.7570471076760084,1.0653219930766458,0.9565531138139732

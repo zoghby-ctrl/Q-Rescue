@@ -1,0 +1,3013 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d43" for="edge" attr.name="parallel_edge_policy" attr.type="string" />
+  <key id="d42" for="edge" attr.name="source_max_reliability" attr.type="double" />
+  <key id="d41" for="edge" attr.name="source_min_distance_km" attr.type="double" />
+  <key id="d40" for="edge" attr.name="source_parallel_edge_count" attr.type="long" />
+  <key id="d39" for="edge" attr.name="osm_name" attr.type="string" />
+  <key id="d38" for="edge" attr.name="osm_way_id" attr.type="string" />
+  <key id="d37" for="edge" attr.name="reliability" attr.type="double" />
+  <key id="d36" for="edge" attr.name="road_class" attr.type="string" />
+  <key id="d35" for="edge" attr.name="speed_kph" attr.type="double" />
+  <key id="d34" for="edge" attr.name="base_travel_time_min" attr.type="double" />
+  <key id="d33" for="edge" attr.name="distance_km" attr.type="double" />
+  <key id="d32" for="node" attr.name="y" attr.type="double" />
+  <key id="d31" for="node" attr.name="x" attr.type="double" />
+  <key id="d30" for="graph" attr.name="raw_overpass_sha256" attr.type="string" />
+  <key id="d29" for="graph" attr.name="overpass_endpoint" attr.type="string" />
+  <key id="d28" for="graph" attr.name="od_candidate_route_count" attr.type="long" />
+  <key id="d27" for="graph" attr.name="destination" attr.type="string" />
+  <key id="d26" for="graph" attr.name="origin" attr.type="string" />
+  <key id="d25" for="graph" attr.name="study_label" attr.type="string" />
+  <key id="d24" for="graph" attr.name="traffic_semantics" attr.type="string" />
+  <key id="d23" for="graph" attr.name="cached_at_utc" attr.type="string" />
+  <key id="d22" for="graph" attr.name="largest_strong_component_node_count" attr.type="long" />
+  <key id="d21" for="graph" attr.name="source_node_count" attr.type="long" />
+  <key id="d20" for="graph" attr.name="skipped_segments" attr.type="long" />
+  <key id="d19" for="graph" attr.name="parallel_edge_projection_caveat" attr.type="string" />
+  <key id="d18" for="graph" attr.name="parallel_edge_projection" attr.type="boolean" />
+  <key id="d17" for="graph" attr.name="source_parallel_edges_collapsed_full_extract" attr.type="long" />
+  <key id="d16" for="graph" attr.name="parallel_edges_collapsed" attr.type="long" />
+  <key id="d15" for="graph" attr.name="parallel_edge_policy" attr.type="string" />
+  <key id="d14" for="graph" attr.name="overpass_query" attr.type="string" />
+  <key id="d13" for="graph" attr.name="bounding_box" attr.type="string" />
+  <key id="d12" for="graph" attr.name="copyright_url" attr.type="string" />
+  <key id="d11" for="graph" attr.name="attribution" attr.type="string" />
+  <key id="d10" for="graph" attr.name="source_timestamp_utc" attr.type="string" />
+  <key id="d9" for="graph" attr.name="source" attr.type="string" />
+  <key id="d8" for="graph" attr.name="coordinate_system" attr.type="string" />
+  <key id="d7" for="graph" attr.name="selection_rationale" attr.type="string" />
+  <key id="d6" for="graph" attr.name="region_label" attr.type="string" />
+  <key id="d5" for="graph" attr.name="topology_source" attr.type="string" />
+  <key id="d4" for="graph" attr.name="topology_family" attr.type="string" />
+  <key id="d3" for="graph" attr.name="topology" attr.type="string" />
+  <key id="d2" for="graph" attr.name="synthetic" attr.type="boolean" />
+  <key id="d1" for="graph" attr.name="network_id" attr.type="string" />
+  <key id="d0" for="graph" attr.name="schema_version" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="1758008333">
+      <data key="d31">-73.9911336</data>
+      <data key="d32">40.7553899</data>
+    </node>
+    <node id="8567060240">
+      <data key="d31">-73.9891511</data>
+      <data key="d32">40.7503935</data>
+    </node>
+    <node id="8567060233">
+      <data key="d31">-73.9892997</data>
+      <data key="d32">40.7504561</data>
+    </node>
+    <node id="10169532558">
+      <data key="d31">-73.9863517</data>
+      <data key="d32">40.7517646</data>
+    </node>
+    <node id="10173490602">
+      <data key="d31">-73.9873036</data>
+      <data key="d32">40.7529769</data>
+    </node>
+    <node id="42435657">
+      <data key="d31">-73.9907278</data>
+      <data key="d32">40.7559486</data>
+    </node>
+    <node id="4886239171">
+      <data key="d31">-73.9874138</data>
+      <data key="d32">40.7502834</data>
+    </node>
+    <node id="10173490593">
+      <data key="d31">-73.9869495</data>
+      <data key="d32">40.7535697</data>
+    </node>
+    <node id="10169532573">
+      <data key="d31">-73.989646</data>
+      <data key="d32">40.7523454</data>
+    </node>
+    <node id="8660596985">
+      <data key="d31">-73.9921193</data>
+      <data key="d32">40.7540356</data>
+    </node>
+    <node id="10168381341">
+      <data key="d31">-73.9914881</data>
+      <data key="d32">40.7546466</data>
+    </node>
+    <node id="6223524382">
+      <data key="d31">-73.9909662</data>
+      <data key="d32">40.75201</data>
+    </node>
+    <node id="10169532565">
+      <data key="d31">-73.9887359</data>
+      <data key="d32">40.7535863</data>
+    </node>
+    <node id="10169532546">
+      <data key="d31">-73.9900137</data>
+      <data key="d32">40.7516081</data>
+    </node>
+    <node id="10268795655">
+      <data key="d31">-73.9871532</data>
+      <data key="d32">40.7533629</data>
+    </node>
+    <node id="10169532525">
+      <data key="d31">-73.9875202</data>
+      <data key="d32">40.7522545</data>
+    </node>
+    <node id="13018681176">
+      <data key="d31">-73.9894119</data>
+      <data key="d32">40.7553957</data>
+    </node>
+    <node id="8660596960">
+      <data key="d31">-73.9929276</data>
+      <data key="d32">40.7529246</data>
+    </node>
+    <node id="10268795654">
+      <data key="d31">-73.9872336</data>
+      <data key="d32">40.7532009</data>
+    </node>
+    <node id="3857343080">
+      <data key="d31">-73.9876991</data>
+      <data key="d32">40.7498816</data>
+    </node>
+    <node id="10691086268">
+      <data key="d31">-73.9946004</data>
+      <data key="d32">40.7526665</data>
+    </node>
+    <node id="6224277845">
+      <data key="d31">-73.9878518</data>
+      <data key="d32">40.7498458</data>
+    </node>
+    <node id="10169532541">
+      <data key="d31">-73.9883779</data>
+      <data key="d32">40.7540718</data>
+    </node>
+    <node id="10169532575">
+      <data key="d31">-73.9898111</data>
+      <data key="d32">40.7523403</data>
+    </node>
+    <node id="10268795748">
+      <data key="d31">-73.9873086</data>
+      <data key="d32">40.7529608</data>
+    </node>
+    <node id="10169532518">
+      <data key="d31">-73.9893687</data>
+      <data key="d32">40.7529481</data>
+    </node>
+    <node id="9538820168">
+      <data key="d31">-73.9907656</data>
+      <data key="d32">40.7558967</data>
+    </node>
+    <node id="42430308">
+      <data key="d31">-73.9872874</data>
+      <data key="d32">40.7504574</data>
+    </node>
+    <node id="9856196750">
+      <data key="d31">-73.9867943</data>
+      <data key="d32">40.7511305</data>
+    </node>
+    <node id="6223524384">
+      <data key="d31">-73.9908081</data>
+      <data key="d32">40.7519433</data>
+    </node>
+    <node id="10166333100">
+      <data key="d31">-73.9856236</data>
+      <data key="d32">40.7530035</data>
+    </node>
+    <node id="9413881840">
+      <data key="d31">-73.9904978</data>
+      <data key="d32">40.7509614</data>
+    </node>
+    <node id="42435646">
+      <data key="d31">-73.9925251</data>
+      <data key="d32">40.7534779</data>
+    </node>
+    <node id="5851792228">
+      <data key="d31">-73.9951546</data>
+      <data key="d32">40.7528987</data>
+    </node>
+    <node id="4707471845">
+      <data key="d31">-73.9874878</data>
+      <data key="d32">40.7521693</data>
+    </node>
+    <node id="9971314385">
+      <data key="d31">-73.9952288</data>
+      <data key="d32">40.7529316</data>
+    </node>
+    <node id="42428258">
+      <data key="d31">-73.9876865</data>
+      <data key="d32">40.7514446</data>
+    </node>
+    <node id="6224277873">
+      <data key="d31">-73.9876638</data>
+      <data key="d32">40.7506157</data>
+    </node>
+    <node id="10268795656">
+      <data key="d31">-73.9871631</data>
+      <data key="d32">40.7533402</data>
+    </node>
+    <node id="10169532600">
+      <data key="d31">-73.9859895</data>
+      <data key="d32">40.7522588</data>
+    </node>
+    <node id="10268795657">
+      <data key="d31">-73.9872237</data>
+      <data key="d32">40.7532251</data>
+    </node>
+    <node id="10279559005">
+      <data key="d31">-73.9914625</data>
+      <data key="d32">40.75494</data>
+    </node>
+    <node id="9945692442">
+      <data key="d31">-73.990267</data>
+      <data key="d32">40.7517149</data>
+    </node>
+    <node id="3857343079">
+      <data key="d31">-73.9873258</data>
+      <data key="d32">40.7504055</data>
+    </node>
+    <node id="10691086263">
+      <data key="d31">-73.9920396</data>
+      <data key="d32">40.7516114</data>
+    </node>
+    <node id="42437654">
+      <data key="d31">-73.9906121</data>
+      <data key="d32">40.7510092</data>
+    </node>
+    <node id="8660596973">
+      <data key="d31">-73.9920313</data>
+      <data key="d32">40.754157</data>
+    </node>
+    <node id="10169532534">
+      <data key="d31">-73.9880168</data>
+      <data key="d32">40.7548095</data>
+    </node>
+    <node id="9665062199">
+      <data key="d31">-73.992517</data>
+      <data key="d32">40.7526646</data>
+    </node>
+    <node id="3769557283">
+      <data key="d31">-73.9915577</data>
+      <data key="d32">40.7530724</data>
+    </node>
+    <node id="10169532542">
+      <data key="d31">-73.9884526</data>
+      <data key="d32">40.7541989</data>
+    </node>
+    <node id="6224277860">
+      <data key="d31">-73.9874078</data>
+      <data key="d32">40.7505092</data>
+    </node>
+    <node id="10168381348">
+      <data key="d31">-73.9910589</data>
+      <data key="d32">40.7552801</data>
+    </node>
+    <node id="42439952">
+      <data key="d31">-73.9901341</data>
+      <data key="d32">40.7516588</data>
+    </node>
+    <node id="9821598084">
+      <data key="d31">-73.9878801</data>
+      <data key="d32">40.7539626</data>
+    </node>
+    <node id="9698661088">
+      <data key="d31">-73.9892236</data>
+      <data key="d32">40.750424</data>
+    </node>
+    <node id="42435645">
+      <data key="d31">-73.9929759</data>
+      <data key="d32">40.7528582</data>
+    </node>
+    <node id="8660596958">
+      <data key="d31">-73.9936074</data>
+      <data key="d32">40.752257</data>
+    </node>
+    <node id="10169532547">
+      <data key="d31">-73.9900901</data>
+      <data key="d32">40.751721</data>
+    </node>
+    <node id="42439968">
+      <data key="d31">-73.9878881</data>
+      <data key="d32">40.7547554</data>
+    </node>
+    <node id="10169532517">
+      <data key="d31">-73.9892801</data>
+      <data key="d32">40.7528446</data>
+    </node>
+    <node id="42430311">
+      <data key="d31">-73.986828</data>
+      <data key="d32">40.7510824</data>
+    </node>
+    <node id="10169532523">
+      <data key="d31">-73.9873501</data>
+      <data key="d32">40.7521097</data>
+    </node>
+    <node id="10169532599">
+      <data key="d31">-73.9859053</data>
+      <data key="d32">40.7523729</data>
+    </node>
+    <node id="2649092010">
+      <data key="d31">-73.994682</data>
+      <data key="d32">40.7527002</data>
+    </node>
+    <node id="10169532526">
+      <data key="d31">-73.9876261</data>
+      <data key="d32">40.7522287</data>
+    </node>
+    <node id="10169532539">
+      <data key="d31">-73.9882074</data>
+      <data key="d32">40.7541008</data>
+    </node>
+    <node id="3857366815">
+      <data key="d31">-73.9872453</data>
+      <data key="d32">40.7505152</data>
+    </node>
+    <node id="10268795725">
+      <data key="d31">-73.9871265</data>
+      <data key="d32">40.7536458</data>
+    </node>
+    <node id="10268795747">
+      <data key="d31">-73.9870922</data>
+      <data key="d32">40.7535545</data>
+    </node>
+    <node id="10169532581">
+      <data key="d31">-73.9875061</data>
+      <data key="d32">40.7513685</data>
+    </node>
+    <node id="42430314">
+      <data key="d31">-73.986399</data>
+      <data key="d32">40.7517</data>
+    </node>
+    <node id="5607992553">
+      <data key="d31">-73.987037</data>
+      <data key="d32">40.7507992</data>
+    </node>
+    <node id="42433611">
+      <data key="d31">-73.9887981</data>
+      <data key="d32">40.7535034</data>
+    </node>
+    <node id="42439960">
+      <data key="d31">-73.989243</data>
+      <data key="d32">40.752895</data>
+    </node>
+    <node id="42428253">
+      <data key="d31">-73.9877857</data>
+      <data key="d32">40.750682</data>
+    </node>
+    <node id="8660596949">
+      <data key="d31">-73.9928397</data>
+      <data key="d32">40.7528008</data>
+    </node>
+    <node id="9971314384">
+      <data key="d31">-73.9952991</data>
+      <data key="d32">40.7529645</data>
+    </node>
+    <node id="4707468275">
+      <data key="d31">-73.9873184</data>
+      <data key="d32">40.7520962</data>
+    </node>
+    <node id="9856566012">
+      <data key="d31">-73.9869627</data>
+      <data key="d32">40.7511392</data>
+    </node>
+    <node id="10169532566">
+      <data key="d31">-73.9888318</data>
+      <data key="d32">40.7534559</data>
+    </node>
+    <node id="8660596994">
+      <data key="d31">-73.9924817</data>
+      <data key="d32">40.7535374</data>
+    </node>
+    <node id="9945692441">
+      <data key="d31">-73.9901745</data>
+      <data key="d32">40.7516039</data>
+    </node>
+    <node id="10169532533">
+      <data key="d31">-73.9879278</data>
+      <data key="d32">40.7546999</data>
+    </node>
+    <node id="42428264">
+      <data key="d31">-73.9875372</data>
+      <data key="d32">40.7521903</data>
+    </node>
+    <node id="42428272">
+      <data key="d31">-73.9870696</data>
+      <data key="d32">40.7536222</data>
+    </node>
+    <node id="10691086265">
+      <data key="d31">-73.9945223</data>
+      <data key="d32">40.7526343</data>
+    </node>
+    <node id="10169532572">
+      <data key="d31">-73.9895632</data>
+      <data key="d32">40.7522364</data>
+    </node>
+    <node id="10168381343">
+      <data key="d31">-73.9916735</data>
+      <data key="d32">40.7546504</data>
+    </node>
+    <node id="4770624019">
+      <data key="d31">-73.9871918</data>
+      <data key="d32">40.7520416</data>
+    </node>
+    <node id="10169505515">
+      <data key="d31">-73.989118</data>
+      <data key="d32">40.7528432</data>
+    </node>
+    <node id="8660596959">
+      <data key="d31">-73.99333</data>
+      <data key="d32">40.7521481</data>
+    </node>
+    <node id="10169532540">
+      <data key="d31">-73.9882755</data>
+      <data key="d32">40.7542134</data>
+    </node>
+    <node id="42435650">
+      <data key="d31">-73.992079</data>
+      <data key="d32">40.754091</data>
+    </node>
+    <node id="10173490604">
+      <data key="d31">-73.9874576</data>
+      <data key="d32">40.7529342</data>
+    </node>
+    <node id="10268795787">
+      <data key="d31">-73.9871733</data>
+      <data key="d32">40.7536655</data>
+    </node>
+    <node id="10169532564">
+      <data key="d31">-73.9886726</data>
+      <data key="d32">40.7534497</data>
+    </node>
+    <node id="8660597000">
+      <data key="d31">-73.9919481</data>
+      <data key="d32">40.7540358</data>
+    </node>
+    <node id="10691086262">
+      <data key="d31">-73.9918681</data>
+      <data key="d32">40.7515404</data>
+    </node>
+    <node id="42435644">
+      <data key="d31">-73.993458</data>
+      <data key="d32">40.7521986</data>
+    </node>
+    <node id="10173490594">
+      <data key="d31">-73.9870991</data>
+      <data key="d32">40.753531</data>
+    </node>
+    <node id="42428268">
+      <data key="d31">-73.9873437</data>
+      <data key="d32">40.7528867</data>
+    </node>
+    <node id="9421121461">
+      <data key="d31">-73.9919575</data>
+      <data key="d32">40.7515766</data>
+    </node>
+    <node id="42439955">
+      <data key="d31">-73.9896878</data>
+      <data key="d32">40.7522886</data>
+    </node>
+    <node id="10169532524">
+      <data key="d31">-73.987552</data>
+      <data key="d32">40.7521164</data>
+    </node>
+    <node id="6597473550">
+      <data key="d31">-73.9875568</data>
+      <data key="d32">40.7521984</data>
+    </node>
+    <node id="3799564975">
+      <data key="d31">-73.9926856</data>
+      <data key="d32">40.751884</data>
+    </node>
+    <node id="10169532574">
+      <data key="d31">-73.9897332</data>
+      <data key="d32">40.7522244</data>
+    </node>
+    <node id="10308251046">
+      <data key="d31">-73.9915935</data>
+      <data key="d32">40.7538863</data>
+    </node>
+    <node id="8660596952">
+      <data key="d31">-73.992391</data>
+      <data key="d32">40.7534216</data>
+    </node>
+    <node id="10173490596">
+      <data key="d31">-73.9872321</data>
+      <data key="d32">40.7536903</data>
+    </node>
+    <node id="9469803475">
+      <data key="d31">-73.993172</data>
+      <data key="d32">40.752591</data>
+    </node>
+    <node id="4770628023">
+      <data key="d31">-73.9882862</data>
+      <data key="d32">40.7500289</data>
+    </node>
+    <node id="10169532559">
+      <data key="d31">-73.986537</data>
+      <data key="d32">40.7517594</data>
+    </node>
+    <node id="10169505516">
+      <data key="d31">-73.9891948</data>
+      <data key="d32">40.7529609</data>
+    </node>
+    <node id="6224278786">
+      <data key="d31">-73.9879154</data>
+      <data key="d32">40.7507232</data>
+    </node>
+    <node id="8660596975">
+      <data key="d31">-73.993015</data>
+      <data key="d32">40.7528046</data>
+    </node>
+    <node id="9821598083">
+      <data key="d31">-73.9875222</data>
+      <data key="d32">40.753813</data>
+    </node>
+    <node id="10169532584">
+      <data key="d31">-73.987673</data>
+      <data key="d32">40.7515117</data>
+    </node>
+    <node id="9413881838">
+      <data key="d31">-73.9907529</data>
+      <data key="d32">40.751068</data>
+    </node>
+    <node id="10169532585">
+      <data key="d31">-73.9877714</data>
+      <data key="d32">40.7514804</data>
+    </node>
+    <node id="12749368600">
+      <data key="d31">-73.9889829</data>
+      <data key="d32">40.7532499</data>
+    </node>
+    <node id="8660596990">
+      <data key="d31">-73.9933974</data>
+      <data key="d32">40.7522826</data>
+    </node>
+    <node id="42430317">
+      <data key="d31">-73.985947</data>
+      <data key="d32">40.752317</data>
+    </node>
+    <node id="8660596978">
+      <data key="d31">-73.9925697</data>
+      <data key="d32">40.7534167</data>
+    </node>
+    <node id="11191334802">
+      <data key="d31">-73.9927591</data>
+      <data key="d32">40.7531503</data>
+    </node>
+    <node id="4707471833">
+      <data key="d31">-73.9871816</data>
+      <data key="d32">40.7528183</data>
+    </node>
+    <node id="10173490603">
+      <data key="d31">-73.9873651</data>
+      <data key="d32">40.7528416</data>
+    </node>
+    <node id="42439964">
+      <data key="d31">-73.988323</data>
+      <data key="d32">40.7541474</data>
+    </node>
+    <node id="10169532567">
+      <data key="d31">-73.9889228</data>
+      <data key="d32">40.7535569</data>
+    </node>
+    <node id="42430320">
+      <data key="d31">-73.9854836</data>
+      <data key="d32">40.7529437</data>
+    </node>
+    <node id="9698661091">
+      <data key="d31">-73.9905497</data>
+      <data key="d32">40.7510939</data>
+    </node>
+    <node id="9856196752">
+      <data key="d31">-73.9868682</data>
+      <data key="d32">40.7510279</data>
+    </node>
+    <node id="10169532557">
+      <data key="d31">-73.9864356</data>
+      <data key="d32">40.7516472</data>
+    </node>
+    <node id="4886228959">
+      <data key="d31">-73.987892</data>
+      <data key="d32">40.7498635</data>
+    </node>
+    <node id="6224278787">
+      <data key="d31">-73.9880602</data>
+      <data key="d32">40.7499341</data>
+    </node>
+    <node id="42433620">
+      <data key="d31">-73.991633</data>
+      <data key="d32">40.754707</data>
+    </node>
+    <node id="10169532601">
+      <data key="d31">-73.9860836</data>
+      <data key="d32">40.7523747</data>
+    </node>
+    <node id="9538820166">
+      <data key="d31">-73.9905861</data>
+      <data key="d32">40.7558891</data>
+    </node>
+    <node id="10168381339">
+      <data key="d31">-73.9915855</data>
+      <data key="d32">40.7547719</data>
+    </node>
+    <node id="42430304">
+      <data key="d31">-73.9877463</data>
+      <data key="d32">40.7498011</data>
+    </node>
+    <node id="42435654">
+      <data key="d31">-73.991177</data>
+      <data key="d32">40.75533</data>
+    </node>
+    <node id="10268795689">
+      <data key="d31">-73.9873234</data>
+      <data key="d32">40.7529296</data>
+    </node>
+    <node id="10168381350">
+      <data key="d31">-73.9912234</data>
+      <data key="d32">40.7552667</data>
+    </node>
+    <node id="10166333099">
+      <data key="d31">-73.9855301</data>
+      <data key="d32">40.7528774</data>
+    </node>
+    <edge source="1758008333" target="9538820168">
+      <data key="d33">0.0643159032942559</data>
+      <data key="d34">0.08575453772567454</data>
+      <data key="d35">45.0</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">125479721</data>
+      <data key="d39">8th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.0643159032942559</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="8567060240" target="4770628023">
+      <data key="d33">0.08337710838483922</data>
+      <data key="d34">0.1243395197817335</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649121</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.08337710838483922</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="8567060240" target="9698661088">
+      <data key="d33">0.00698567064579885</data>
+      <data key="d34">0.010417666794617707</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649121</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.00698567064579885</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="8567060233" target="9413881840">
+      <data key="d33">0.11551014141632886</data>
+      <data key="d34">0.17225921828968152</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649121</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.11551014141632886</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="8567060233" target="9698661088">
+      <data key="d33">0.007337163938105872</data>
+      <data key="d34">0.010941845529267883</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649121</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.007337163938105872</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532558" target="10169532600">
+      <data key="d33">0.06285414181530706</data>
+      <data key="d34">0.09373380728839635</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649120</data>
+      <data key="d39">6th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.06285414181530706</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10173490602" target="10268795748">
+      <data key="d33">0.001839115320028774</data>
+      <data key="d34">0.006856639674409352</data>
+      <data key="d35">16.09344</data>
+      <data key="d36">living_street</data>
+      <data key="d37">0.92</data>
+      <data key="d38">958919324</data>
+      <data key="d39">Broadway</data>
+      <data key="d40">1</data>
+      <data key="d41">0.001839115320028774</data>
+      <data key="d42">0.92</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42435657" target="9538820166">
+      <data key="d33">0.013646480715258646</data>
+      <data key="d34">0.029242458675554243</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">542258060</data>
+      <data key="d39">West 40th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.013646480715258646</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="4886239171" target="3857343079">
+      <data key="d33">0.015468783199394045</data>
+      <data key="d34">0.023068455021763964</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">496983396</data>
+      <data key="d39">6th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.015468783199394045</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10173490593" target="42428272">
+      <data key="d33">0.011679910205020641</data>
+      <data key="d34">0.02502837901075852</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">36806906</data>
+      <data key="d39">West 39th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.011679910205020641</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532573" target="42439955">
+      <data key="d33">0.007231031864819011</data>
+      <data key="d34">0.010783571738276978</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1135620538</data>
+      <data key="d39">7th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.007231031864819011</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="8660596985" target="42435650">
+      <data key="d33">0.007033577960510447</data>
+      <data key="d34">0.01048911053523987</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1124078897</data>
+      <data key="d39">8th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.007033577960510447</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10168381341" target="10169532567">
+      <data key="d33">0.2477358418423735</data>
+      <data key="d34">0.5308625182336575</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">542257008</data>
+      <data key="d39">West 38th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.2477358418423735</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="6223524382" target="9665062199">
+      <data key="d33">0.14954121267483356</data>
+      <data key="d34">0.32044545573178623</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">5673561</data>
+      <data key="d39">West 35th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.14954121267483356</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532565" target="42433611">
+      <data key="d33">0.01060297347893521</data>
+      <data key="d34">0.01581211745248033</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1049920718</data>
+      <data key="d39">7th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.01060297347893521</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532546" target="42439952">
+      <data key="d33">0.01160351202049704</data>
+      <data key="d34">0.0248646686153508</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">1051750426</data>
+      <data key="d39">West 35th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.01160351202049704</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10268795655" target="10268795656">
+      <data key="d33">0.0026583130646797137</data>
+      <data key="d34">0.009910794950040687</data>
+      <data key="d35">16.09344</data>
+      <data key="d36">living_street</data>
+      <data key="d37">0.92</data>
+      <data key="d38">958919324</data>
+      <data key="d39">Broadway</data>
+      <data key="d40">1</data>
+      <data key="d41">0.0026583130646797137</data>
+      <data key="d42">0.92</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532525" target="42428264">
+      <data key="d33">0.007280932411387287</data>
+      <data key="d34">0.02714496991837899</data>
+      <data key="d35">16.09344</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">700951338</data>
+      <data key="d39">Broadway</data>
+      <data key="d40">1</data>
+      <data key="d41">0.007280932411387287</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="13018681176" target="10169532534">
+      <data key="d33">0.13437832464514365</data>
+      <data key="d34">0.28795355281102214</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">542258060</data>
+      <data key="d39">West 40th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.13437832464514365</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="8660596960" target="11191334802">
+      <data key="d33">0.0288322318837228</data>
+      <data key="d34">0.04299724392108506</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1124078896</data>
+      <data key="d39">8th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.0288322318837228</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10268795654" target="10173490602">
+      <data key="d33">0.025596100750709665</data>
+      <data key="d34">0.09542807784057229</data>
+      <data key="d35">16.09344</data>
+      <data key="d36">living_street</data>
+      <data key="d37">0.92</data>
+      <data key="d38">958919324</data>
+      <data key="d39">Broadway</data>
+      <data key="d40">1</data>
+      <data key="d41">0.025596100750709665</data>
+      <data key="d42">0.92</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="3857343080" target="4886239171">
+      <data key="d33">0.0507318609927214</data>
+      <data key="d34">0.07565596067871838</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">496983397</data>
+      <data key="d39">6th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.0507318609927214</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10691086268" target="10691086265">
+      <data key="d33">0.007489924154203812</data>
+      <data key="d34">0.011169655443515586</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">420509471</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.007489924154203812</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10691086268" target="2649092010">
+      <data key="d33">0.007828607869573262</data>
+      <data key="d34">0.01167473137314075</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">420509471</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.007828607869573262</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="6224277845" target="42430304">
+      <data key="d33">0.010182596062096934</data>
+      <data key="d34">0.015185212452423248</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649121</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.010182596062096934</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="6224277845" target="4886228959">
+      <data key="d33">0.003916762084490372</data>
+      <data key="d34">0.005841031502759443</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649121</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.003916762084490372</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532541" target="10169532565">
+      <data key="d33">0.061836433075133264</data>
+      <data key="d34">0.09221610754463919</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1049920718</data>
+      <data key="d39">7th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.061836433075133264</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532575" target="42439955">
+      <data key="d33">0.011870975921954808</data>
+      <data key="d34">0.015827967895939744</data>
+      <data key="d35">45.0</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">46481747</data>
+      <data key="d39">West 36th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.011870975921954808</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10268795748" target="10268795689">
+      <data key="d33">0.0036864765579831785</data>
+      <data key="d34">0.013744022003933943</data>
+      <data key="d35">16.09344</data>
+      <data key="d36">living_street</data>
+      <data key="d37">0.92</data>
+      <data key="d38">958919324</data>
+      <data key="d39">Broadway</data>
+      <data key="d40">1</data>
+      <data key="d41">0.0036864765579831785</data>
+      <data key="d42">0.92</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532518" target="10308251046">
+      <data key="d33">0.21448269983533355</data>
+      <data key="d34">0.3198560901863122</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">464543614</data>
+      <data key="d39">West 37th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.21448269983533355</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="9538820168" target="42435657">
+      <data key="d33">0.006591047388404306</data>
+      <data key="d34">0.008788063184539074</data>
+      <data key="d35">45.0</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">125479721</data>
+      <data key="d39">8th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.006591047388404306</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42430308" target="3857366815">
+      <data key="d33">0.007340576351068548</data>
+      <data key="d34">0.01094693442953434</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">587038081</data>
+      <data key="d39">6th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.007340576351068548</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42430308" target="6224277860">
+      <data key="d33">0.011663581338302895</data>
+      <data key="d34">0.024993388582077634</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">1051750425</data>
+      <data key="d39">West 35th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.011663581338302895</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="9856196750" target="10169532557">
+      <data key="d33">0.06491523170005183</data>
+      <data key="d34">0.09680749179797754</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649120</data>
+      <data key="d39">6th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.06491523170005183</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="6223524384" target="6223524382">
+      <data key="d33">0.01524351748406039</data>
+      <data key="d34">0.03266468032298655</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">5673561</data>
+      <data key="d39">West 35th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.01524351748406039</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10166333100" target="10173490593">
+      <data key="d33">0.1282081387147498</data>
+      <data key="d34">0.27473172581732097</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">36806906</data>
+      <data key="d39">West 39th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.1282081387147498</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="9413881840" target="42437654">
+      <data key="d33">0.010997856811839558</data>
+      <data key="d34">0.016401003358147752</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649121</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.010997856811839558</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="9413881840" target="8567060233">
+      <data key="d33">0.11551014141632886</data>
+      <data key="d34">0.17225921828968152</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649121</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.11551014141632886</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42435646" target="8660596952">
+      <data key="d33">0.012914454556809217</data>
+      <data key="d34">0.01721927274241229</data>
+      <data key="d35">45.0</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">46481747</data>
+      <data key="d39">West 36th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.012914454556809217</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42435646" target="8660596994">
+      <data key="d33">0.0075589102887489625</data>
+      <data key="d34">0.011272533835523983</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1124078897</data>
+      <data key="d39">8th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.0075589102887489625</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="5851792228" target="2649092010">
+      <data key="d33">0.045518532764736865</data>
+      <data key="d34">0.06788137193500486</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">420509471</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.045518532764736865</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="5851792228" target="9971314385">
+      <data key="d33">0.007242074758502471</data>
+      <data key="d34">0.010800039904710198</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">420509471</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.007242074758502471</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="4707471845" target="42428264">
+      <data key="d33">0.004771606548578275</data>
+      <data key="d34">0.0071158532399461264</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">46522005</data>
+      <data key="d39">West 37th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.004771606548578275</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="9971314385" target="5851792228">
+      <data key="d33">0.007242074758502471</data>
+      <data key="d34">0.010800039904710198</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">420509471</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.007242074758502471</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="9971314385" target="9971314384">
+      <data key="d33">0.006960534216266702</data>
+      <data key="d34">0.010380181066968953</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">420509471</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.006960534216266702</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42428258" target="10169532581">
+      <data key="d33">0.017393294399468056</data>
+      <data key="d34">0.02319105919929074</data>
+      <data key="d35">45.0</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">963613972</data>
+      <data key="d39">West 36th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.017393294399468056</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="6224277873" target="42428253">
+      <data key="d33">0.012640843188212252</data>
+      <data key="d34">0.02708752111759768</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">1051750425</data>
+      <data key="d39">West 35th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.012640843188212252</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10268795656" target="10268795657">
+      <data key="d33">0.013778944471791671</data>
+      <data key="d34">0.05137103492525527</data>
+      <data key="d35">16.09344</data>
+      <data key="d36">living_street</data>
+      <data key="d37">0.92</data>
+      <data key="d38">958919324</data>
+      <data key="d39">Broadway</data>
+      <data key="d40">1</data>
+      <data key="d41">0.013778944471791671</data>
+      <data key="d42">0.92</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532600" target="42430317">
+      <data key="d33">0.0073957552632957346</data>
+      <data key="d34">0.01102922223707906</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649120</data>
+      <data key="d39">6th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.0073957552632957346</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10268795657" target="10268795654">
+      <data key="d33">0.002817172870048671</data>
+      <data key="d34">0.010503060390004886</data>
+      <data key="d35">16.09344</data>
+      <data key="d36">living_street</data>
+      <data key="d37">0.92</data>
+      <data key="d38">958919324</data>
+      <data key="d39">Broadway</data>
+      <data key="d40">1</data>
+      <data key="d41">0.002817172870048671</data>
+      <data key="d42">0.92</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10279559005" target="10168381350">
+      <data key="d33">0.04153657995681849</data>
+      <data key="d34">0.061943122102151166</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">194926854</data>
+      <data key="d39">8th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.04153657995681849</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="9945692442" target="6223524384">
+      <data key="d33">0.052177682225790945</data>
+      <data key="d34">0.11180931905526632</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">5673561</data>
+      <data key="d39">West 35th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.052177682225790945</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="3857343079" target="42430308">
+      <data key="d33">0.006615739049807261</data>
+      <data key="d34">0.009865991186183578</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">496983396</data>
+      <data key="d39">6th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.006615739049807261</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10691086263" target="3799564975">
+      <data key="d33">0.06228887833412632</data>
+      <data key="d34">0.09289083502464554</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1536703972</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.06228887833412632</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10691086263" target="9421121461">
+      <data key="d33">0.007924713176825858</data>
+      <data key="d34">0.011818052339575663</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1536703972</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.007924713176825858</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42437654" target="9413881838">
+      <data key="d33">0.013543240679851493</data>
+      <data key="d34">0.02019691105919156</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">195743208</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.013543240679851493</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42437654" target="9413881840">
+      <data key="d33">0.010997856811839558</data>
+      <data key="d34">0.016401003358147752</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649121</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.010997856811839558</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="8660596973" target="10168381343">
+      <data key="d33">0.06259656806323687</data>
+      <data key="d34">0.09334968990580539</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1124078898</data>
+      <data key="d39">8th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.06259656806323687</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532534" target="42439968">
+      <data key="d33">0.012397838690122375</data>
+      <data key="d34">0.026566797193119378</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">542258060</data>
+      <data key="d39">West 40th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.012397838690122375</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="9665062199" target="8660596949">
+      <data key="d33">0.03111659982831612</data>
+      <data key="d34">0.06667842820353455</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">1051750428</data>
+      <data key="d39">West 35th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.03111659982831612</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="3769557283" target="10169532575">
+      <data key="d33">0.16814329509057288</data>
+      <data key="d34">0.22419106012076384</data>
+      <data key="d35">45.0</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">46481747</data>
+      <data key="d39">West 36th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.16814329509057288</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532542" target="10168381348">
+      <data key="d33">0.2502965790678493</data>
+      <data key="d34">0.5363498122882485</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">542257982</data>
+      <data key="d39">West 39th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.2502965790678493</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="6224277860" target="6224277873">
+      <data key="d33">0.024602280895104713</data>
+      <data key="d34">0.05271917334665296</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">1051750425</data>
+      <data key="d39">West 35th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.024602280895104713</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10168381348" target="42435654">
+      <data key="d33">0.011390486522033273</data>
+      <data key="d34">0.024408185404357012</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">542257982</data>
+      <data key="d39">West 39th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.011390486522033273</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42439952" target="9945692441">
+      <data key="d33">0.006989093632064368</data>
+      <data key="d34">0.010422771462754067</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1051750427</data>
+      <data key="d39">7th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.006989093632064368</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42439952" target="9945692442">
+      <data key="d33">0.012815557855586768</data>
+      <data key="d34">0.027461909690543074</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">5673561</data>
+      <data key="d39">West 35th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.012815557855586768</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="9821598084" target="10169532539">
+      <data key="d33">0.03156285479706625</data>
+      <data key="d34">0.06763468885085624</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">1049920715</data>
+      <data key="d39">West 39th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.03156285479706625</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="9698661088" target="8567060233">
+      <data key="d33">0.007337163938105872</data>
+      <data key="d34">0.010941845529267883</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649121</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.007337163938105872</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="9698661088" target="8567060240">
+      <data key="d33">0.00698567064579885</data>
+      <data key="d34">0.010417666794617707</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649121</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.00698567064579885</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42435645" target="8660596960">
+      <data key="d33">0.008430097991209721</data>
+      <data key="d34">0.012571728094741292</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1124078896</data>
+      <data key="d39">8th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.008430097991209721</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="8660596958" target="10691086265">
+      <data key="d33">0.08774569294617346</data>
+      <data key="d34">0.13085435001517157</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">420509471</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.08774569294617346</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="8660596958" target="42435644">
+      <data key="d33">0.01416132159182329</data>
+      <data key="d34">0.02111864947480209</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">420509471</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.01416132159182329</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532547" target="42439952">
+      <data key="d33">0.007846830503853526</data>
+      <data key="d34">0.011701906621112987</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">464543615</data>
+      <data key="d39">7th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.007846830503853526</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42439968" target="10169532533">
+      <data key="d33">0.007019084823369444</data>
+      <data key="d34">0.010467497052268916</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1049920716</data>
+      <data key="d39">7th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.007019084823369444</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532517" target="10169532573">
+      <data key="d33">0.06349137987270376</data>
+      <data key="d34">0.09468411457990897</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1135620538</data>
+      <data key="d39">7th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.06349137987270376</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42430311" target="9856196750">
+      <data key="d33">0.006055147614327181</data>
+      <data key="d34">0.009029986301490068</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649120</data>
+      <data key="d39">6th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.006055147614327181</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532523" target="4707471845">
+      <data key="d33">0.013358890718274008</data>
+      <data key="d34">0.019921991646197217</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">46522005</data>
+      <data key="d39">West 37th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.013358890718274008</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532599" target="10166333099">
+      <data key="d33">0.06438812822052276</data>
+      <data key="d34">0.09602142719595973</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649120</data>
+      <data key="d39">6th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.06438812822052276</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="2649092010" target="10691086268">
+      <data key="d33">0.007828607869573262</data>
+      <data key="d34">0.01167473137314075</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">420509471</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.007828607869573262</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="2649092010" target="5851792228">
+      <data key="d33">0.045518532764736865</data>
+      <data key="d34">0.06788137193500486</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">420509471</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.045518532764736865</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532526" target="10169505515">
+      <data key="d33">0.14304416972298578</data>
+      <data key="d34">0.21332046308009095</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">500717399</data>
+      <data key="d39">West 37th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.14304416972298578</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532539" target="42439964">
+      <data key="d33">0.011030139374775145</data>
+      <data key="d34">0.02363601294594674</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">1049920715</data>
+      <data key="d39">West 39th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.011030139374775145</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="3857366815" target="5607992553">
+      <data key="d33">0.036126697338548244</data>
+      <data key="d34">0.0538754135924425</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">587038081</data>
+      <data key="d39">6th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.036126697338548244</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10268795725" target="10268795787">
+      <data key="d33">0.0045098356261462184</data>
+      <data key="d34">0.00966393348459904</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">1070126888</data>
+      <data key="d39">West 39th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.0045098356261462184</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10268795747" target="10173490594">
+      <data key="d33">0.002676940881366212</data>
+      <data key="d34">0.009980243682020296</data>
+      <data key="d35">16.09344</data>
+      <data key="d36">living_street</data>
+      <data key="d37">0.92</data>
+      <data key="d38">958919324</data>
+      <data key="d39">Broadway</data>
+      <data key="d40">1</data>
+      <data key="d41">0.002676940881366212</data>
+      <data key="d42">0.92</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532581" target="9856566012">
+      <data key="d33">0.052395981199686345</data>
+      <data key="d34">0.06986130826624846</data>
+      <data key="d35">45.0</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">963613972</data>
+      <data key="d39">West 36th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.052395981199686345</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42430314" target="10169532558">
+      <data key="d33">0.008214211979099443</data>
+      <data key="d34">0.012249779257783706</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649120</data>
+      <data key="d39">6th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.008214211979099443</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42430314" target="10169532559">
+      <data key="d33">0.013369899933639089</data>
+      <data key="d34">0.019938409588462012</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">46522005</data>
+      <data key="d39">West 37th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.013369899933639089</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="5607992553" target="9856196752">
+      <data key="d33">0.029135606430743935</data>
+      <data key="d34">0.043449663610629824</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649120</data>
+      <data key="d39">6th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.029135606430743935</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42433611" target="10169532564">
+      <data key="d33">0.012141101232462976</data>
+      <data key="d34">0.026016645498134948</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">1049920717</data>
+      <data key="d39">West 38th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.012141101232462976</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42433611" target="10169532566">
+      <data key="d33">0.005996250371352349</data>
+      <data key="d34">0.008942153381281837</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1376929274</data>
+      <data key="d39">7th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.005996250371352349</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42439960" target="10169532517">
+      <data key="d33">0.00641665948330437</data>
+      <data key="d34">0.009569105647972396</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1135620538</data>
+      <data key="d39">7th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.00641665948330437</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42439960" target="10169532518">
+      <data key="d33">0.012123216036807433</data>
+      <data key="d34">0.018079241286100323</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">464543614</data>
+      <data key="d39">West 37th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.012123216036807433</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42428253" target="6224278786">
+      <data key="d33">0.011847110525010104</data>
+      <data key="d34">0.025386665410735938</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">1051750426</data>
+      <data key="d39">West 35th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.011847110525010104</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="8660596949" target="42435645">
+      <data key="d33">0.013128574207093437</data>
+      <data key="d34">0.028132659015200224</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">1051750428</data>
+      <data key="d39">West 35th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.013128574207093437</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="9971314384" target="9971314385">
+      <data key="d33">0.006960534216266702</data>
+      <data key="d34">0.010380181066968953</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">420509471</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.006960534216266702</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="4707468275" target="10169532523">
+      <data key="d33">0.0030632672928198085</data>
+      <data key="d34">0.004568222519714579</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">46522005</data>
+      <data key="d39">West 37th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.0030632672928198085</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="9856566012" target="42430311">
+      <data key="d33">0.012985981478676429</data>
+      <data key="d34">0.01731464197156857</data>
+      <data key="d35">45.0</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">963613972</data>
+      <data key="d39">West 36th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.012985981478676429</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532566" target="12749368600">
+      <data key="d33">0.026204700167308536</data>
+      <data key="d34">0.039078829884437685</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1376929274</data>
+      <data key="d39">7th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.026204700167308536</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="8660596994" target="8660596985">
+      <data key="d33">0.0632511121285572</data>
+      <data key="d34">0.09432580548878132</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1124078897</data>
+      <data key="d39">8th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.0632511121285572</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="9945692441" target="9698661091">
+      <data key="d33">0.06492194821844763</data>
+      <data key="d34">0.09681750808048142</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1051750427</data>
+      <data key="d39">7th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.06492194821844763</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532533" target="10169532540">
+      <data key="d33">0.061515639456266105</data>
+      <data key="d34">0.09173771095243692</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1049920716</data>
+      <data key="d39">7th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.061515639456266105</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42428264" target="10169532524">
+      <data key="d33">0.008311346876751202</data>
+      <data key="d34">0.012394635642971847</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">700951339</data>
+      <data key="d39">Broadway</data>
+      <data key="d40">1</data>
+      <data key="d41">0.008311346876751202</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42428264" target="6597473550">
+      <data key="d33">0.0018806986394143152</data>
+      <data key="d34">0.0028046686939488114</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">500717399</data>
+      <data key="d39">West 37th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.0018806986394143152</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42428272" target="10268795725">
+      <data key="d33">0.005464235899207199</data>
+      <data key="d34">0.011709076926872569</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">1070126888</data>
+      <data key="d39">West 39th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.005464235899207199</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42428272" target="10268795747">
+      <data key="d33">0.007764877476914845</data>
+      <data key="d34">0.028949227052444394</data>
+      <data key="d35">16.09344</data>
+      <data key="d36">living_street</data>
+      <data key="d37">0.92</data>
+      <data key="d38">958919324</data>
+      <data key="d39">Broadway</data>
+      <data key="d40">1</data>
+      <data key="d41">0.007764877476914845</data>
+      <data key="d42">0.92</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10691086265" target="10691086268">
+      <data key="d33">0.007489924154203812</data>
+      <data key="d34">0.011169655443515586</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">420509471</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.007489924154203812</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10691086265" target="8660596958">
+      <data key="d33">0.08774569294617346</data>
+      <data key="d34">0.13085435001517157</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">420509471</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.08774569294617346</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532572" target="10169532585">
+      <data key="d33">0.1727637062319199</data>
+      <data key="d34">0.23035160830922652</data>
+      <data key="d35">45.0</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1135620537</data>
+      <data key="d39">West 36th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.1727637062319199</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10168381343" target="42433620">
+      <data key="d33">0.0071587309079959105</data>
+      <data key="d34">0.01067574998209841</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1124078898</data>
+      <data key="d39">8th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.0071587309079959105</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="4770624019" target="4707468275">
+      <data key="d33">0.012271262408126957</data>
+      <data key="d34">0.01830002148670806</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">46522005</data>
+      <data key="d39">West 37th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.012271262408126957</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169505515" target="42439960">
+      <data key="d33">0.012001718885625545</data>
+      <data key="d34">0.017898053694860333</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">500717399</data>
+      <data key="d39">West 37th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.012001718885625545</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="8660596959" target="3799564975">
+      <data key="d33">0.06171568057040677</data>
+      <data key="d34">0.09203603043785309</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1536703973</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.06171568057040677</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="8660596959" target="42435644">
+      <data key="d33">0.01215667392092973</data>
+      <data key="d34">0.018129136722932666</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1536703973</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.01215667392092973</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532540" target="42439964">
+      <data key="d33">0.008358667888052935</data>
+      <data key="d34">0.01246520503467689</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1049920716</data>
+      <data key="d39">7th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.008358667888052935</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42435650" target="8660596973">
+      <data key="d33">0.008366746457078035</data>
+      <data key="d34">0.012477252530836964</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1124078898</data>
+      <data key="d39">8th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.008366746457078035</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10173490604" target="42428268">
+      <data key="d33">0.010952001077533005</data>
+      <data key="d34">0.023468573737570726</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">1049920717</data>
+      <data key="d39">West 38th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.010952001077533005</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10268795787" target="10173490596">
+      <data key="d33">0.005668835536447054</data>
+      <data key="d34">0.012147504720957974</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">1070126888</data>
+      <data key="d39">West 39th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.005668835536447054</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532564" target="10173490604">
+      <data key="d33">0.11730271405264636</data>
+      <data key="d34">0.2513629586842422</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">1049920717</data>
+      <data key="d39">West 38th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.11730271405264636</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="8660597000" target="42435650">
+      <data key="d33">0.012619336700291299</data>
+      <data key="d34">0.018819101497690435</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1127444736</data>
+      <data key="d39">West 37th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.012619336700291299</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10691086262" target="9413881838">
+      <data key="d33">0.1076287058572247</data>
+      <data key="d34">0.16050570546591608</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">195743208</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.1076287058572247</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10691086262" target="9421121461">
+      <data key="d33">0.008538940916936934</data>
+      <data key="d34">0.012734044555203015</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">195743208</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.008538940916936934</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42435644" target="8660596958">
+      <data key="d33">0.01416132159182329</data>
+      <data key="d34">0.02111864947480209</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">420509471</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.01416132159182329</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42435644" target="8660596959">
+      <data key="d33">0.01215667392092973</data>
+      <data key="d34">0.018129136722932666</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1536703973</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.01215667392092973</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42435644" target="8660596990">
+      <data key="d33">0.01064424606400545</data>
+      <data key="d34">0.015873666881420678</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1027181005</data>
+      <data key="d39">8th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.01064424606400545</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10173490594" target="10268795655">
+      <data key="d33">0.019239366570561293</data>
+      <data key="d34">0.07172872886304467</data>
+      <data key="d35">16.09344</data>
+      <data key="d36">living_street</data>
+      <data key="d37">0.92</data>
+      <data key="d38">958919324</data>
+      <data key="d39">Broadway</data>
+      <data key="d40">1</data>
+      <data key="d41">0.019239366570561293</data>
+      <data key="d42">0.92</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42428268" target="10173490603">
+      <data key="d33">0.005329032494097896</data>
+      <data key="d34">0.019867843645974617</data>
+      <data key="d35">16.09344</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">700951338</data>
+      <data key="d39">Broadway</data>
+      <data key="d40">1</data>
+      <data key="d41">0.005329032494097896</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42428268" target="4707471833">
+      <data key="d33">0.01562970227266526</data>
+      <data key="d34">0.033492219155711274</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">542257009</data>
+      <data key="d39">West 38th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.01562970227266526</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="9421121461" target="10691086262">
+      <data key="d33">0.008538940916936934</data>
+      <data key="d34">0.012734044555203015</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">195743208</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.008538940916936934</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="9421121461" target="10691086263">
+      <data key="d33">0.007924713176825858</data>
+      <data key="d34">0.011818052339575663</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1536703972</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.007924713176825858</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42439955" target="10169532572">
+      <data key="d33">0.011993716014137127</data>
+      <data key="d34">0.015991621352182836</data>
+      <data key="d35">45.0</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1135620537</data>
+      <data key="d39">West 36th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.011993716014137127</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42439955" target="10169532574">
+      <data key="d33">0.008098536353640145</data>
+      <data key="d34">0.012077273254653043</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">464543615</data>
+      <data key="d39">7th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.008098536353640145</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532524" target="10169532584">
+      <data key="d33">0.0680077846926178</data>
+      <data key="d34">0.1014193878140924</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">700951339</data>
+      <data key="d39">Broadway</data>
+      <data key="d40">1</data>
+      <data key="d41">0.0680077846926178</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="6597473550" target="10169532526">
+      <data key="d33">0.00673999795964862</data>
+      <data key="d34">0.010051297362873747</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">500717399</data>
+      <data key="d39">West 37th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.00673999795964862</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="3799564975" target="10691086263">
+      <data key="d33">0.06228887833412632</data>
+      <data key="d34">0.09289083502464554</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1536703972</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.06228887833412632</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="3799564975" target="8660596959">
+      <data key="d33">0.06171568057040677</data>
+      <data key="d34">0.09203603043785309</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1536703973</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.06171568057040677</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532574" target="10169532547">
+      <data key="d33">0.06353802401525631</data>
+      <data key="d34">0.094753674563434</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">464543615</data>
+      <data key="d39">7th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.06353802401525631</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10308251046" target="8660597000">
+      <data key="d33">0.03418323700271241</data>
+      <data key="d34">0.050977148954176224</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1127444736</data>
+      <data key="d39">West 37th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.03418323700271241</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="8660596952" target="3769557283">
+      <data key="d33">0.08021588516681777</data>
+      <data key="d34">0.10695451355575702</data>
+      <data key="d35">45.0</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">46481747</data>
+      <data key="d39">West 36th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.08021588516681777</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10173490596" target="9821598083">
+      <data key="d33">0.02798683592727131</data>
+      <data key="d34">0.059971791272724236</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">1070126888</data>
+      <data key="d39">West 39th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.02798683592727131</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="9469803475" target="8660596975">
+      <data key="d33">0.027184863788352057</data>
+      <data key="d34">0.04054053893514683</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1027181006</data>
+      <data key="d39">8th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.027184863788352057</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="4770628023" target="6224278787">
+      <data key="d33">0.02176125307110193</data>
+      <data key="d34">0.032452357836885486</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649121</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.02176125307110193</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="4770628023" target="8567060240">
+      <data key="d33">0.08337710838483922</data>
+      <data key="d34">0.1243395197817335</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649121</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.08337710838483922</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532559" target="4770624019">
+      <data key="d33">0.06345839032015</data>
+      <data key="d34">0.09463491756166487</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">46522005</data>
+      <data key="d39">West 37th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.06345839032015</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169505516" target="42439960">
+      <data key="d33">0.008377360115540348</data>
+      <data key="d34">0.01249308058270751</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">569345547</data>
+      <data key="d39">7th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.008377360115540348</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="6224278786" target="10169532546">
+      <data key="d33">0.2022950904408793</data>
+      <data key="d34">0.43348947951616995</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">1051750426</data>
+      <data key="d39">West 35th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.2022950904408793</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="8660596975" target="42435645">
+      <data key="d33">0.006809531272994014</data>
+      <data key="d34">0.010154991757626483</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1027181006</data>
+      <data key="d39">8th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.006809531272994014</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="9821598083" target="9821598084">
+      <data key="d33">0.034431786063711764</data>
+      <data key="d34">0.07378239870795378</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">1070126889</data>
+      <data key="d39">West 39th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.034431786063711764</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532584" target="42428258">
+      <data key="d33">0.007547352848435035</data>
+      <data key="d34">0.011255298330402999</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">700951339</data>
+      <data key="d39">Broadway</data>
+      <data key="d40">1</data>
+      <data key="d41">0.007547352848435035</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="9413881838" target="10691086262">
+      <data key="d33">0.1076287058572247</data>
+      <data key="d34">0.16050570546591608</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">195743208</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.1076287058572247</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="9413881838" target="42437654">
+      <data key="d33">0.013543240679851493</data>
+      <data key="d34">0.02019691105919156</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">195743208</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.013543240679851493</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532585" target="42428258">
+      <data key="d33">0.008184871050557534</data>
+      <data key="d34">0.010913161400743377</data>
+      <data key="d35">45.0</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1135620537</data>
+      <data key="d39">West 36th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.008184871050557534</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="12749368600" target="10169505516">
+      <data key="d33">0.03675966039601798</data>
+      <data key="d34">0.05481934561563168</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">569345547</data>
+      <data key="d39">7th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.03675966039601798</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="8660596990" target="9469803475">
+      <data key="d33">0.039197763079797734</data>
+      <data key="d34">0.058455265867033125</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1027181005</data>
+      <data key="d39">8th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.039197763079797734</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42430317" target="10169532599">
+      <data key="d33">0.007139639258038284</data>
+      <data key="d34">0.010647278778988134</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649120</data>
+      <data key="d39">6th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.007139639258038284</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="8660596978" target="42435646">
+      <data key="d33">0.0077732518568941165</data>
+      <data key="d34">0.01159217945731048</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1207834767</data>
+      <data key="d39">8th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.0077732518568941165</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="11191334802" target="8660596978">
+      <data key="d33">0.03364533141646718</data>
+      <data key="d34">0.050174975269129056</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1207834767</data>
+      <data key="d39">8th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.03364533141646718</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="4707471833" target="10169532601">
+      <data key="d33">0.1048203845100448</data>
+      <data key="d34">0.22461510966438172</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">542257009</data>
+      <data key="d39">West 38th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.1048203845100448</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10173490603" target="10169532525">
+      <data key="d33">0.06657709292301468</data>
+      <data key="d34">0.2482145256316164</data>
+      <data key="d35">16.09344</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">700951338</data>
+      <data key="d39">Broadway</data>
+      <data key="d40">1</data>
+      <data key="d41">0.06657709292301468</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42439964" target="10169532541">
+      <data key="d33">0.009594338296151852</data>
+      <data key="d34">0.014307949021939648</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1049920718</data>
+      <data key="d39">7th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.009594338296151852</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42439964" target="10169532542">
+      <data key="d33">0.0123273352074049</data>
+      <data key="d34">0.02641571830158193</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">542257982</data>
+      <data key="d39">West 39th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.0123273352074049</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532567" target="42433611">
+      <data key="d33">0.01207149086137194</data>
+      <data key="d34">0.025867480417225586</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">542257008</data>
+      <data key="d39">West 38th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.01207149086137194</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42430320" target="10166333100">
+      <data key="d33">0.013538231020085926</data>
+      <data key="d34">0.02901049504304127</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">36806906</data>
+      <data key="d39">West 39th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.013538231020085926</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="9698661091" target="42437654">
+      <data key="d33">0.010785731633375812</data>
+      <data key="d34">0.016084663018038372</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1051750427</data>
+      <data key="d39">7th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.010785731633375812</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="9856196752" target="42430311">
+      <data key="d33">0.006942059029599012</data>
+      <data key="d34">0.01035262918992933</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649120</data>
+      <data key="d39">6th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.006942059029599012</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532557" target="42430314">
+      <data key="d33">0.006631349687659402</data>
+      <data key="d34">0.009889271187752628</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649120</data>
+      <data key="d39">6th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.006631349687659402</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="4886228959" target="6224277845">
+      <data key="d33">0.003916762084490372</data>
+      <data key="d34">0.005841031502759443</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649121</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.003916762084490372</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="4886228959" target="6224278787">
+      <data key="d33">0.01619822101552825</data>
+      <data key="d34">0.024156258970902306</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649121</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.01619822101552825</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="6224278787" target="4770628023">
+      <data key="d33">0.02176125307110193</data>
+      <data key="d34">0.032452357836885486</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649121</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.02176125307110193</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="6224278787" target="4886228959">
+      <data key="d33">0.01619822101552825</data>
+      <data key="d34">0.024156258970902306</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649121</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.01619822101552825</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42433620" target="10168381339">
+      <data key="d33">0.008251467595707518</data>
+      <data key="d34">0.012305338218366019</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1124078899</data>
+      <data key="d39">8th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.008251467595707518</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42433620" target="10168381341">
+      <data key="d33">0.013931005824558985</data>
+      <data key="d34">0.029852155338340684</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">542257008</data>
+      <data key="d39">West 38th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.013931005824558985</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10169532601" target="42430317">
+      <data key="d33">0.013174314880994279</data>
+      <data key="d34">0.028230674744987742</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">542257009</data>
+      <data key="d39">West 38th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.013174314880994279</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="9538820166" target="13018681176">
+      <data key="d33">0.11310118821504685</data>
+      <data key="d34">0.24235968903224325</data>
+      <data key="d35">28.0</data>
+      <data key="d36">residential</data>
+      <data key="d37">0.93</data>
+      <data key="d38">542258060</data>
+      <data key="d39">West 40th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.11310118821504685</data>
+      <data key="d42">0.93</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10168381339" target="10279559005">
+      <data key="d33">0.021371146578868117</data>
+      <data key="d34">0.03187059559005624</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">1124078899</data>
+      <data key="d39">8th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.021371146578868117</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42430304" target="3857343080">
+      <data key="d33">0.00979452821684334</data>
+      <data key="d34">0.014606490421205171</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">496983397</data>
+      <data key="d39">6th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.00979452821684334</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42430304" target="6224277845">
+      <data key="d33">0.010182596062096934</data>
+      <data key="d34">0.015185212452423248</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">primary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649121</data>
+      <data key="d39">West 34th Street</data>
+      <data key="d40">1</data>
+      <data key="d41">0.010182596062096934</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="42435654" target="1758008333">
+      <data key="d33">0.007597822138520612</data>
+      <data key="d34">0.010130429518027482</data>
+      <data key="d35">45.0</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">125479721</data>
+      <data key="d39">8th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.007597822138520612</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10268795689" target="42428268">
+      <data key="d33">0.005067482868755873</data>
+      <data key="d34">0.01889272723080661</data>
+      <data key="d35">16.09344</data>
+      <data key="d36">living_street</data>
+      <data key="d37">0.92</data>
+      <data key="d38">958919324</data>
+      <data key="d39">Broadway</data>
+      <data key="d40">1</data>
+      <data key="d41">0.005067482868755873</data>
+      <data key="d42">0.92</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10168381350" target="42435654">
+      <data key="d33">0.0080509284680546</data>
+      <data key="d34">0.01200627604995019</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">194926854</data>
+      <data key="d39">8th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.0080509284680546</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <edge source="10166333099" target="42430320">
+      <data key="d33">0.008348156669069635</data>
+      <data key="d34">0.01244952974986524</data>
+      <data key="d35">40.2336</data>
+      <data key="d36">secondary</data>
+      <data key="d37">0.95</data>
+      <data key="d38">384649120</data>
+      <data key="d39">6th Avenue</data>
+      <data key="d40">1</data>
+      <data key="d41">0.008348156669069635</data>
+      <data key="d42">0.95</data>
+      <data key="d43">minimum_base_travel_time</data>
+    </edge>
+    <data key="d0">1.0</data>
+    <data key="d1">real_orthogonal_grid_00</data>
+    <data key="d2">False</data>
+    <data key="d3">orthogonal_grid</data>
+    <data key="d4">orthogonal_grid</data>
+    <data key="d5">selection_motivation_from_config_not_algorithm_logic</data>
+    <data key="d6">Midtown Manhattan, New York, USA</data>
+    <data key="d7">compact orthogonal street grid with frequent four-way intersections</data>
+    <data key="d8">WGS84_longitude_latitude</data>
+    <data key="d9">OpenStreetMap via Overpass API</data>
+    <data key="d10">2026-08-09T22:30:35Z</data>
+    <data key="d11">Map data © OpenStreetMap contributors; ODbL 1.0</data>
+    <data key="d12">https://www.openstreetmap.org/copyright</data>
+    <data key="d13">40.7500000,-73.9950000,40.7560000,-73.9850000</data>
+    <data key="d14">[out:json][timeout:90];way["highway"~"^(primary|secondary|tertiary|unclassified|residential|living_street)$"](40.7500000,-73.9950000,40.7560000,-73.9850000);(._;&gt;;);out body;</data>
+    <data key="d15">minimum_base_travel_time</data>
+    <data key="d16">0</data>
+    <data key="d17">0</data>
+    <data key="d18">False</data>
+    <data key="d19">minimum-base-time canonical projection; not a full multigraph distance, reliability, incident, or closure baseline</data>
+    <data key="d20">0</data>
+    <data key="d21">317</data>
+    <data key="d22">145</data>
+    <data key="d23">2026-08-09T22:31:36.125030+00:00</data>
+    <data key="d24">controlled_simulated_traffic_not_live_traffic</data>
+    <data key="d25">real road topology with controlled simulated traffic</data>
+    <data key="d26">9971314384</data>
+    <data key="d27">42430320</data>
+    <data key="d28">4</data>
+    <data key="d29">https://overpass-api.de/api/interpreter</data>
+    <data key="d30">f8d7e9686c1ea3e7d144019d7e01b5ac2683b1f9ba3701855b422c60206cdfd3</data>
+  </graph>
+</graphml>
