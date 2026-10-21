@@ -10,7 +10,7 @@ It does **not** claim quantum advantage, quantum speedup, superiority over class
 
 ![Q-Rescue Decision Console](output/playwright/final-polish-desktop.png)
 
-Deployment URL: `https://<approved-subdomain>.streamlit.app` *(not deployed by this repository-preparation pass)*
+Deployment URL: [https://q-rescue.streamlit.app](https://q-rescue.streamlit.app/) *(Streamlit Community Cloud may sleep when inactive.)*
 
 ## Architecture
 
