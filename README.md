@@ -6,6 +6,8 @@
 
 Q-Rescue is a research software project for uncertainty-aware candidate-route selection. It combines classical travel-time prediction, locally scaled conformal intervals, deadline-risk scoring, exact QUBO enumeration, and PennyLane QAOA in an evidence-traceable Streamlit interface.
 
+Q-Rescue originated as a final project for a Quantum AI course at The Egyptian Chinese University (ECU). Ahmed Abdelghafar Mohamed is responsible for the project’s code and is its primary maintainer.
+
 It does **not** claim quantum advantage, quantum speedup, superiority over classical routing, live-traffic validity, medical effectiveness, hardware execution, or operational emergency-deployment readiness.
 
 ![Q-Rescue Decision Console](output/playwright/final-polish-desktop.png)
@@ -104,7 +106,7 @@ Detailed research reproduction notes are in [paper/REPRODUCIBILITY.md](paper/REP
 
 ## Citation
 
-A [CITATION.cff](CITATION.cff) file is included, but its author and affiliation are still placeholders. Replace them with confirmed metadata before asking others to cite the project. No DOI, ORCID, venue, coauthor, acceptance status, or publication date has been invented.
+A [CITATION.cff](CITATION.cff) file provides the project title, author, and institutional affiliation for citation. Add a DOI or publication details only if they are formally assigned.
 
 ## License
 
