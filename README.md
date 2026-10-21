@@ -104,13 +104,11 @@ Detailed research reproduction notes are in [paper/REPRODUCIBILITY.md](paper/REP
 
 ## Citation
 
-A [CITATION.cff](CITATION.cff) file is included, but its author and affiliation are explicit placeholders because the repository does not contain unambiguous author metadata. Confirm those fields before public release. No DOI, ORCID, venue, coauthor, acceptance status, or publication date has been invented.
+A [CITATION.cff](CITATION.cff) file is included, but its author and affiliation are still placeholders. Replace them with confirmed metadata before asking others to cite the project. No DOI, ORCID, venue, coauthor, acceptance status, or publication date has been invented.
 
 ## License
 
-**License decision required before public GitHub release.**
-
-No license is currently present. The repository owner must select and add one; until then, the absence of a license should not be interpreted as permission to copy, modify, or redistribute the work.
+Q-Rescue is licensed under the [MIT License](LICENSE).
 
 ## Publication safety
 
