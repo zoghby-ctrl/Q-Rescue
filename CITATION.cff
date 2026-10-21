@@ -1,10 +1,10 @@
 cff-version: 1.2.0
-message: "Please cite this software using the metadata below after confirming the author placeholder."
+message: "If you use this software, please cite it using the metadata below."
 title: "Q-Rescue: Uncertainty-Aware Hybrid Quantum Optimization for Emergency Routing"
 type: software
 authors:
-  - name: "AUTHOR NAME REQUIRED BEFORE PUBLIC RELEASE"
-    affiliation: "AFFILIATION REQUIRES CONFIRMATION"
+  - name: "Ahmed Abdelghafar Mohamed"
+    affiliation: "Your official institution name"
 abstract: >-
   A research software implementation and Streamlit MVP for uncertainty-aware
   candidate-route selection using classical travel-time prediction, conformal
