@@ -4,7 +4,7 @@ title: "Q-Rescue: Uncertainty-Aware Hybrid Quantum Optimization for Emergency Ro
 type: software
 authors:
   - name: "Ahmed Abdelghafar Mohamed"
-    affiliation: "Your official institution name"
+    affiliation: "The Egyptian Chinese University (ECU)"
 abstract: >-
   A research software implementation and Streamlit MVP for uncertainty-aware
   candidate-route selection using classical travel-time prediction, conformal
